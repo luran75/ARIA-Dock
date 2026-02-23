@@ -1,4 +1,4 @@
-name: aria_snello
+name: aria
 channels:
   - conda-forge
   - defaults
