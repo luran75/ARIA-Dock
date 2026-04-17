@@ -1,0 +1,5 @@
+Affinity_Score: 0.70
+QED_Score: 0.10
+SA_Score_Norm: 0.00
+Lipinski_Score: 0.10
+Filter_Score: 0.10

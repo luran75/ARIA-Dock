@@ -1,0 +1,88 @@
+# pyKVFinder results
+
+[FILES]
+INPUT = "/Users/luigiranieri/Desktop/praetorian/ARIADNE/ARIA-Dock/ARIA-Dock_V_1_1/pocket_finder/3PRS.pdb"
+OUTPUT = "/Users/luigiranieri/Desktop/praetorian/ARIADNE/ARIA-Dock/ARIA-Dock_V_1_1/pocket_finder/3PRS_cavities.pdb"
+
+[PARAMETERS]
+STEP = 0.6
+
+[RESULTS.VOLUME]
+KAA = 12.1
+KAB = 5.4
+KAC = 22.9
+
+[RESULTS.AREA]
+KAA = 19.45
+KAB = 10.23
+KAC = 39.3
+
+[RESULTS.MAX_DEPTH]
+KAA = 0.6
+KAB = 0.6
+KAC = 0.0
+
+[RESULTS.AVG_DEPTH]
+KAA = 0.11
+KAB = 0.17
+KAC = 0.0
+
+[RESULTS.AVG_HYDROPATHY]
+KAA = -0.49
+KAB = -0.9
+KAC = -0.98
+EisenbergWeiss = [-1.42, 2.6]
+
+[RESULTS.RESIDUES]
+KAA = [["204", "A", "VAL"], ["205", "A", "GLY"], ["207", "A", "GLY"], ["238", "A", "GLN"], ["260", "A", "PRO"], ["7038", "A", "HOH"], ["7134", "A", "HOH"], ["7199", "A", "HOH"], ["7218", "A", "HOH"]]
+KAB = [["202", "A", "TYR"], ["212", "A", "THR"], ["214", "A", "ILE"], ["228", "A", "PRO"], ["230", "A", "THR"], ["231", "A", "VAL"], ["7176", "A", "HOH"], ["7207", "A", "HOH"]]
+KAC = [["199", "A", "SER"], ["201", "A", "GLY"], ["202", "A", "TYR"], ["214", "A", "ILE"], ["227", "A", "LEU"], ["231", "A", "VAL"], ["262", "A", "PHE"], ["263", "A", "THR"], ["264", "A", "PHE"], ["305", "A", "PHE"]]
+
+[RESULTS.FREQUENCY.KAA.RESIDUES]
+GLN = 1
+GLY = 2
+HOH = 4
+PRO = 1
+VAL = 1
+
+[RESULTS.FREQUENCY.KAA.CLASS]
+R1 = 4
+R2 = 0
+R3 = 1
+R4 = 0
+R5 = 0
+RX = 4
+
+[RESULTS.FREQUENCY.KAB.RESIDUES]
+HOH = 2
+ILE = 1
+PRO = 1
+THR = 2
+TYR = 1
+VAL = 1
+
+[RESULTS.FREQUENCY.KAB.CLASS]
+R1 = 3
+R2 = 1
+R3 = 2
+R4 = 0
+R5 = 0
+RX = 2
+
+[RESULTS.FREQUENCY.KAC.RESIDUES]
+GLY = 1
+ILE = 1
+LEU = 1
+PHE = 3
+SER = 1
+THR = 1
+TYR = 1
+VAL = 1
+
+[RESULTS.FREQUENCY.KAC.CLASS]
+R1 = 4
+R2 = 4
+R3 = 2
+R4 = 0
+R5 = 0
+RX = 0

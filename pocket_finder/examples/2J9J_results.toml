@@ -1,0 +1,110 @@
+# pyKVFinder results
+
+[FILES]
+INPUT = "/Users/luigiranieri/Desktop/praetorian/ARIADNE/ARIA-Dock/ARIA-Dock_V_1_1/pocket_finder/2J9J.pdb"
+OUTPUT = "/Users/luigiranieri/Desktop/praetorian/ARIADNE/ARIA-Dock/ARIA-Dock_V_1_1/pocket_finder/2J9J_cavities.pdb"
+
+[PARAMETERS]
+STEP = 0.6
+
+[RESULTS.VOLUME]
+KAA = 14.26
+KAB = 7.78
+KAC = 12.31
+KAD = 30.24
+
+[RESULTS.AREA]
+KAA = 22.56
+KAB = 13.34
+KAC = 29.54
+KAD = 36.33
+
+[RESULTS.MAX_DEPTH]
+KAA = 1.2
+KAB = 1.04
+KAC = 0.0
+KAD = 1.8
+
+[RESULTS.AVG_DEPTH]
+KAA = 0.33
+KAB = 0.28
+KAC = 0.0
+KAD = 0.46
+
+[RESULTS.AVG_HYDROPATHY]
+KAA = 1.42
+KAB = 0.31
+KAC = -1.05
+KAD = 0.15
+EisenbergWeiss = [-1.42, 2.6]
+
+[RESULTS.RESIDUES]
+KAA = [["14", "B", "ARG"], ["15", "B", "ILE"], ["16", "B", "GLY"], ["17", "B", "GLY"], ["63", "B", "PRO"], ["64", "B", "VAL"], ["65", "B", "GLU"], ["2083", "B", "HOH"], ["2086", "B", "HOH"]]
+KAB = [["34", "A", "GLU"], ["80", "A", "THR"], ["81", "A", "PRO"], ["82", "A", "VAL"], ["83", "A", "ASN"], ["2048", "A", "HOH"], ["2094", "A", "HOH"], ["2095", "A", "HOH"], ["2096", "A", "HOH"]]
+KAC = [["13", "A", "ILE"], ["15", "A", "ILE"], ["31", "A", "THR"], ["33", "A", "ILE"], ["64", "A", "VAL"], ["75", "A", "VAL"], ["85", "A", "ILE"], ["89", "A", "LEU"]]
+KAD = [["15", "A", "ILE"], ["16", "A", "GLY"], ["18", "A", "GLN"], ["20", "A", "LYS"], ["36", "A", "NLE"], ["37", "A", "ASN"], ["38", "A", "LEU"], ["2056", "A", "HOH"]]
+
+[RESULTS.FREQUENCY.KAA.RESIDUES]
+ARG = 1
+GLU = 1
+GLY = 2
+HOH = 2
+ILE = 1
+PRO = 1
+VAL = 1
+
+[RESULTS.FREQUENCY.KAA.CLASS]
+R1 = 5
+R2 = 0
+R3 = 0
+R4 = 1
+R5 = 1
+RX = 2
+
+[RESULTS.FREQUENCY.KAB.RESIDUES]
+ASN = 1
+GLU = 1
+HOH = 4
+PRO = 1
+THR = 1
+VAL = 1
+
+[RESULTS.FREQUENCY.KAB.CLASS]
+R1 = 2
+R2 = 0
+R3 = 2
+R4 = 1
+R5 = 0
+RX = 4
+
+[RESULTS.FREQUENCY.KAC.RESIDUES]
+ILE = 4
+LEU = 1
+THR = 1
+VAL = 2
+
+[RESULTS.FREQUENCY.KAC.CLASS]
+R1 = 7
+R2 = 0
+R3 = 1
+R4 = 0
+R5 = 0
+RX = 0
+
+[RESULTS.FREQUENCY.KAD.RESIDUES]
+ASN = 1
+GLN = 1
+GLY = 1
+HOH = 1
+ILE = 1
+LEU = 1
+LYS = 1
+NLE = 1
+
+[RESULTS.FREQUENCY.KAD.CLASS]
+R1 = 3
+R2 = 0
+R3 = 2
+R4 = 0
+R5 = 1
+RX = 2
