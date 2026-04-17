@@ -123,7 +123,7 @@ The results are saved in the `06_data` folder:
 * `05_sdf_files` the sdf files of the molecules selected in every round.
 
 
-### No available ligand
+### No available ligand?
 
 ARIA-Dock requires a reference ligand on the surface of the protein in order to perform the docking step required for the workflow, but not all pdb structures include a cocrystallized ligand. In order to find potential binding pockets from the urser's protein pdb file, the user can use the script provided in the `pocket_finder` directory, which leverages the pyKVFinder package. After activating the environment as explained above, the user must run the following commands:
 
