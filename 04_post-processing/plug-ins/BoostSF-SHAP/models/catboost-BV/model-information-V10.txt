@@ -1,0 +1,103 @@
+* Optuna Hyperparameter Optimization Results:
+Best RMSE (CV): 1.3442
+Number of trials: 150
+Best Parameters: {'iterations': 1994, 'depth': 7, 'learning_rate': 0.035066505409148165, 'random_strength': 2.707656171888848, 'l2_leaf_reg': 3.462344142728127, 'rsm': 0.50033370630359, 'border_count': 64, 'min_data_in_leaf': 285, 'boosting_type': 'Plain'}
+
+* Training Data:
+File used: data/full_dataset.csv
+Number of samples: 6928
+Number of features: 41
+
+* Training Data Performance:
+Pearson R: 0.7537
+RMSE: 1.1556
+R²: 0.5526
+MAE: 0.9009
+* Test Data:
+File used: data/full_dataset.csv
+Number of samples: 1732
+Number of features: 41
+
+* Test Data Performance:
+Pearson R: 0.6247
+RMSE: 1.3019
+R²: 0.3892
+MAE: 1.0185
+
+============================================================================================================
+
+CatBoost Regression Model – Performance Report
+Model Development
+
+A first CatBoost regression model was trained to predict binding affinity values using 6,928 training molecules 
+and evaluated on 1,732 independent test molecules. Hyperparameters were optimized using Optuna (150 trials) 
+with 5×2 repeated cross-validation (CV).
+We used 5×2 repeated cross-validation (10 folds total) during hyperparameter tuning. Compared to a standard 10-fold CV, 
+repeated CV averages results across multiple random splits, giving in general a more robust estimate of model performance.
+The best-performing hyperparameters were then used to train a final model (referred to as Model 2 / V10, available in this repository) 
+using the entire dataset.
+
+Data for Model 1:
+Best CV RMSE (5×2 repeated CV): 1.3442
+Best Parameters:
+iterations: 1994
+depth: 7
+learning_rate: 0.0351
+random_strength: 2.71
+l2_leaf_reg: 3.46
+rsm: 0.50
+border_count: 64
+min_data_in_leaf: 285
+boosting_type: Plain
+
+
+============================================================================================================
+Training Performance (6,928 molecules)
+
+Pearson correlation (R): 0.754
+
+RMSE: 1.156
+
+R²: 0.553
+
+MAE: 0.901
+
+These metrics show that the model captures over half of the variance in the training data, 
+while still maintaining regularization to avoid overfitting.
+
+============================================================================================================
+
+Test Performance (1,732 molecules)
+
+Pearson correlation (R): 0.625
+
+RMSE: 1.302
+
+R²: 0.389
+
+MAE: 1.019
+
+On unseen test data, the model retains a moderate correlation with experimental values and explains ~39% of the variance. The small increase
+ in RMSE and MAE compared to training indicates reasonable generalization with some expected performance drop due to data noise and model limitations.
+ 
+ 
+============================================================================================================
+
+Key Takeaways
+The model 1 generalizes consistently: cross-validation RMSE (1.344) aligns well with test RMSE (1.302).
+Training vs. test gap is moderate, showing controlled overfitting.
+Current performance (~0.62 Pearson R on test) likely reflects both model limits and intrinsic noise in experimental binding data.
+ 
+This CatBoost model, built on atom–atom interaction and Smina/Vina energy term descriptors, provides a solid and interpretable framework for predicting 
+binding affinities. Within the limits of currently available data, the model achieves reasonable accuracy and explains a meaningful portion of the variance. 
+Further improvements would likely come from incorporating larger, higher-quality datasets or exploring new descriptors that capture additional 
+aspects of protein–ligand interactions. While deep learning approaches and alternative representations could potentially enhance predictive power, 
+they often sacrifice interpretability; here, the combination of CatBoost with SHAP analysis offers both predictive value and valuable scientific insight.
+Thus we believe that further gains would require additional high-quality data, rather than hyperparameter tuning alone.
+ 
+As with most models trained on co-crystallized protein–ligand complexes, there is an inherent bias toward protein families and binding pocket 
+types that are well represented in structural databases, while other biological systems remain under-sampled. For such cases, some limitations 
+should be expected. 
+
+The final model (V10 or model 2), trained on the full dataset, may exhibit improved performance compared to Model 1, 
+which was trained only on the training subset.
