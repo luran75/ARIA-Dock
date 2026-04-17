@@ -12,6 +12,8 @@ dependencies:
   - pandas==1.5.3
   - scipy>=1.10
   - scikit-learn>=1.3
+  - statsmodels>=0.14
+  - patsy>=1.0
   
   # Machine learning
   - xgboost>=2.0
@@ -20,22 +22,34 @@ dependencies:
   - shap>=0.45
   - optuna>=4.0
   
+  # Deep learning dependencies
+  - numba>=0.59
+  - llvmlite>=0.42
+  
   # Visualization
   - matplotlib>=3.9
   - seaborn>=0.13
   - plotly>=5.0
   - graphviz
+  - python-graphviz
   
   # Chemistry and drug discovery
   - rdkit=2023.09.6
   - datamol>=0.12
   - medchem>=2.0.5 
   - openbabel=3.1.1
-  # Note: smina may not be available on Windows
-  - smina=2020.12.10  # [linux] or [osx] only
+  - selfies>=2.1
+  - smina=2020.12.10
   - biopython>=1.83
   - pdbfixer>=1.9
   - openmm>=8.0
+  
+  # Database
+  - sqlalchemy>=2.0
+  - alembic>=1.13
+  
+  # GUI
+  - pyside6>=6.5
   
   # Jupyter and development
   - jupyterlab>=4.0
@@ -44,13 +58,46 @@ dependencies:
   - ipython>=8.0
   
   # Utilities
+  - pyyaml>=6.0
   - tqdm>=4.60
   - joblib>=1.3
+  - pillow>=10.0
+  - reportlab>=4.0
+  - pycairo>=1.20
+  - freetype-py>=2.3
+  
+  # Logging and CLI
+  - loguru>=0.7
+  - colorama>=0.4
+  - colorlog>=6.0
+  - click>=8.0
+  - typer>=0.12
+  - rich>=13.0
+  
+  # Data processing
+  - beautifulsoup4>=4.12
+  - lxml
+  - requests>=2.31
+  - httpx>=0.25
+  - networkx>=3.0
+  
+  # Other utilities
+  - mako>=1.2
+  - cloudpickle>=3.0
+  - fsspec>=2024.0
   
   # Pip for additional packages
   - pip
   - pip:
-    # Specialized tools:
-    - kaleido==1.0.0
-
+      # Specialized tools
+      - choreographer==1.0.9
+      - logistro==1.1.0
+      - pyKVFinder
       
+      # JSON handling
+      - orjson==3.11.0
+      - simplejson==3.20.1
+      
+      # Additional ML utilities
+      - ml-dtypes==0.3.2
+      - opt-einsum==3.4.0
