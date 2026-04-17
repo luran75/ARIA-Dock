@@ -3,8 +3,8 @@
  
 ### Overview
  
-An active-learning based docking workflow to screen large libraries of molecules on a selected target and extract well performing compounds
- 
+An active-learning based docking workflow to screen large libraries of molecules on a selected target and extract compounds with improved predicted binding scores vs previous iterations.
+
 ARIA-Dock (ActiveLearning Regression Iterative Approach to Docking) is a novel user-friendly active learning-powered workflow, for large scale, docking-based active learning screening. It allows for fast and effective hit identification through a combination of multiple machine learning methods by screening a user-defined molecular library.
  
  
@@ -94,7 +94,9 @@ Villoutreix group
 10. `--percentage`
     Percentage of the `database` to select for the initial molecular docking. N.B. If the number of molecules in the `database` is lower than 10000, the percentage is automatically set ot 1%
 11. `--plug-in`
-    Select the plug-ins to run at the end of the workflow. BoostSF-Shap takes the first two best performing molecules and runs an interpretability analysis generating a waterfall graph.
+    Select a post-processing ML-rescoring model that will run at the end of the workflow. The top two best docked candidates are investigated with the ML affinity prediction model.
+    SHAP (SHapley Additive exPlanations) is used to interpret the ML model’s binding-affinity predictions by quantifying how each feature contributes to the predicted affinity for each compound.
+    A SHAP waterfall plot and a SHAP force plot are generated to visualize feature contributions to the predicted binding affinity for each compound.
 12. `-v --verbose`
     Call it to enable verbose mode. This will show a larger amount of lines in the terminal to make debugging easier.
  
@@ -104,7 +106,7 @@ In the `test` folder, run the following command to test the workflow on a small 
 ```
 cd test/
 
-python aria.py -p 2yrq_boxB_4.pdb -l 2yrq_boxB_4_fragments.pdb -d small_test.smi -r 5 -m rfrixb --cpu 10 --docking_chunks 4 --percentage 10 --plug-in boostsf-shap
+python aria.py -p 2yrq_boxB_4.pdb -l 2yrq_boxB_4_fragments.pdb -d small_test.smi -r 5 -m auto -n 2 --cpu 10 --docking_chunks 4 --percentage 10 --plug-in boostsf-shap
 ```
 The results of the `test` can already be seen in the `example` folder.
 
@@ -121,7 +123,20 @@ The results are saved in the `06_data` folder:
 * `05_sdf_files` the sdf files of the molecules selected in every round.
 
 
- 
- 
+### No available ligand
 
+ARIA-Dock requires a reference ligand on the surface of the protein in order to perform the docking step required for the workflow, but not all pdb structures include a cocrystallized ligand. In order to find potential binding pockets from the urser's protein pdb file, the user can use the script provided in the `pocket_finder` directory, which leverages the pyKVFinder package. After activating the environment as explained above, the user must run the following commands:
 
+```
+cd pocket_finder 
+
+python pocket_finder.py -p PDB_FILE.pdb
+```
+
+In the `example ` folder the user can find the results of the following code:
+
+```
+python pocket_finder.py -p 3PRS.pdb
+```
+
+The script outputs three possible binding pockets (KAA, KAB, KAC) and their relative pdb files that can be used as input for ARIA-Dock. The binding pockets can be visualised in an interactive dashboard that is meant to facilitate the user in choosing the ideal predicted binding pocket.
