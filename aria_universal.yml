@@ -1,0 +1,65 @@
+# ARIA-Dock — environment (Linux + macOS, including Apple Silicon)
+#
+# Install:
+#   mamba env create -f environment.yml
+#   conda activate aria
+#
+# Apple Silicon (M1/M2/M3/M4):
+#   All listed packages have native arm64 builds. If any package ever fails
+#   to resolve, fall back to Intel via Rosetta 2:
+#     CONDA_SUBDIR=osx-64 mamba env create -f environment.yml
+#     conda activate aria
+#     conda config --env --set subdir osx-64
+#
+# (mamba/micromamba is strongly recommended over plain conda — much faster
+# and more reliable solver for this dependency graph.)
+#
+# NOTE on NumPy pin: NumPy 2.x changed the C ABI (dtype struct: 96 → 88 bytes).
+# Several packages in this stack still ship binaries built against NumPy 1.x
+# headers, causing runtime "binary incompatibility" errors. Pinning <2 avoids
+# this until the whole stack catches up.
+#
+# NOTE on fpocket: pocket detection uses fpocket (bioconda binary, rock-solid
+# on all platforms) instead of pyKVFinder (broken upstream wheels and source
+# build on macOS arm64). Called via subprocess, parsed by Python.
+
+name: aria_6
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # ---------- Python ----------
+  - python=3.10
+
+  # ---------- Core scientific stack ----------
+  - numpy>=1.24,<2
+  - pandas>=2.0,<2.2
+  - scipy>=1.10,<1.14
+  - scikit-learn>=1.3,<1.5
+
+  # ---------- Machine learning ----------
+  - xgboost>=2.0
+  - catboost>=1.2
+  - shap>=0.45
+  - optuna>=4.0
+  - joblib>=1.3
+
+  # ---------- Visualization ----------
+  - matplotlib>=3.9
+  - seaborn>=0.13
+  - plotly>=5.0
+  - ipython>=8.0
+
+  # ---------- Chemistry & docking ----------
+  - rdkit=2023.09.6
+  - datamol>=0.12
+  - medchem>=2.0.5
+  - openbabel>=3.1.1
+  - smina=2020.12.10
+  - fpocket>=4.0          # pocket detection (replaces pyKVFinder)
+  - biopython>=1.83
+  - pdbfixer>=1.9
+  - openmm>=8.0
+
+  # ---------- Utilities ----------
+  - tqdm>=4.60
