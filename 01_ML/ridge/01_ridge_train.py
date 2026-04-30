@@ -134,7 +134,7 @@ class RidgeOptimization:
         
         alpha = trial.suggest_float('alpha', 0.01, 100.0, log=True)
         fit_intercept = trial.suggest_categorical('fit_intercept', [True, False])
-        solver = trial.suggest_categorical('solver', ['auto', 'svd', 'cholesky', 'lsqr', 'sparse_cg', 'sag', 'saga'])
+        solver = trial.suggest_categorical('solver', ['auto', 'svd', 'cholesky', 'lsqr', 'sparse_cg'])
         
         # Parallel processing for cross-validation
         fold_results = Parallel(n_jobs=self.n_jobs)(
