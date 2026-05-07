@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0118
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0117
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6064
+HEADER 5  - Mean B-factor of pocket residues  : 0.2034
+HEADER 6  - Hydrophobicity Score              : -2.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.3893
+HEADER 10 - Pocket volume (convex hull)       : 9.7230
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   1249  NE2AGLN B  58       5.870 -12.063 -21.070  0.00  0.00           N 0
+ATOM   1370  CG2ATHR B  74       6.541  -8.195 -21.226  0.00  0.00           C 0
+ATOM   1142   NZALYS B  45      11.190 -12.869 -19.222  0.50  9.84           N 0
+ATOM   1369  OG1ATHR B  74       5.874  -8.451 -23.515  0.00  0.00           O 0
+ATOM   1248  OE1AGLN B  58       7.007 -12.631 -19.255  0.79  6.43           O 0
+ATOM   1247   CDAGLN B  58       6.180 -11.928 -19.796  0.00  0.00           C 0
+ATOM   1141   CEALYS B  45      11.096 -11.767 -18.272  0.00  0.00           C 0
+ATOM   1016  OD1AASP B  30      12.758  -7.990 -20.884  0.73  6.43           O 0
+ATOM   1368   CBATHR B  74       6.386  -7.526 -22.562  0.00  0.00           C 0
+ATOM   1385  CD2ALEU B  76       7.912  -8.445 -17.662  0.00  0.00           C 0
+ATOM   1476   CBAASN B  88      10.971  -4.591 -25.000  0.00  0.00           C 0
+ATOM   1361   CAAGLY B  73       4.423  -4.445 -25.577  0.00  0.00           C 0
+ATOM   1479  ND2AASN B  88       9.013  -4.297 -23.659  0.82  2.19           N 0
+ATOM   1511  NE2AGLN B  92       6.820  -2.614 -29.003  0.00  0.00           N 0
+ATOM   1364    NATHR B  74       5.412  -5.644 -23.794  0.00  0.00           N 0
+ATOM   1475    OAASN B  88      10.063  -2.665 -27.388  0.21  7.50           O 0
+TER
+END

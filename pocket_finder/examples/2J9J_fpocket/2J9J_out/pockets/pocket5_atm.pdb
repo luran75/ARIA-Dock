@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1274
+HEADER 1  - Drug Score                        : 0.1510
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 3.8381
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4987
+HEADER 5  - Mean B-factor of pocket residues  : 0.1615
+HEADER 6  - Hydrophobicity Score              : 20.1000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.5521
+HEADER 10 - Pocket volume (convex hull)       : 37.7976
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.5294
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.4722
+ATOM    582  CD1AILE A  72      41.650  12.169 -18.364  0.00  0.00           C 0
+ATOM    565   CBALYS A  70      39.440  10.334 -24.092  0.00  0.00           C 0
+ATOM    567   CDALYS A  70      41.768  10.470 -25.105  0.00  0.00           C 0
+ATOM    580  CG1AILE A  72      40.591  11.061 -18.316  0.00  0.00           C 0
+ATOM    511   CBAPRO A  63      42.380   7.174 -18.522  0.00  0.00           C 0
+ATOM    137   CAAGLY A  16      44.079   0.081 -17.343  0.00  0.00           C 0
+ATOM    140    NAGLY A  17      44.929  -0.323 -19.624  0.55  2.19           N 0
+ATOM    136    NAGLY A  16      42.890   0.672 -17.988  0.58  6.56           N 0
+ATOM    126  NH1AARG A  14      44.564   1.887 -24.041  0.70  1.09           N 0
+ATOM    512   CGAPRO A  63      43.166   7.655 -17.343  0.00  0.00           C 0
+ATOM    513   CDAPRO A  63      42.640   6.888 -16.160  0.00  0.00           C 0
+ATOM    566   CGALYS A  70      40.478   9.688 -25.021  0.00  0.00           C 0
+ATOM    127  NH2AARG A  14      43.918   4.056 -24.637  0.47  6.56           N 0
+ATOM    525   CBAGLU A  65      39.674   4.653 -24.687  0.00  0.00           C 0
+ATOM    568   CEALYS A  70      42.606   9.974 -26.301  0.00  0.00           C 0
+ATOM    510    OAPRO A  63      40.721   4.640 -18.237  0.52  2.14           O 0
+ATOM    120    OAARG A  14      39.835   2.024 -21.472  0.76  2.14           O 0
+ATOM    516    CAVAL A  64      38.346   5.419 -21.454  0.00  0.00           C 0
+ATOM    517    OAVAL A  64      37.861   6.517 -21.644  0.74  1.07           O 0
+ATOM    128    NAILE A  15      40.638   0.097 -20.621  0.00  0.00           N 0
+ATOM    573    OAALA A  71      38.625   8.764 -19.505  0.74  2.14           O 0
+ATOM    509    CAPRO A  63      40.300   5.755 -18.500  0.00  0.00           C 0
+ATOM    521    NAGLU A  65      38.689   4.590 -22.425  0.00  0.00           N 0
+ATOM    514    NAVAL A  64      39.283   5.986 -19.312  0.00  0.00           N 0
+TER
+END

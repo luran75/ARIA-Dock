@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0917
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7511
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5538
+HEADER 5  - Mean B-factor of pocket residues  : 0.3559
+HEADER 6  - Hydrophobicity Score              : 4.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.4206
+HEADER 10 - Pocket volume (convex hull)       : 20.5550
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM    642   CAAVAL A  82      27.629  -6.990 -17.008  0.00  0.00           C 0
+ATOM    630    OATHR A  80      28.721  -8.362 -13.048  0.71  6.43           O 0
+ATOM    637    OAPRO A  81      27.189  -9.555 -16.138  0.48  5.36           O 0
+ATOM    269  OE1AGLU A  34      33.935  -9.561 -16.242  0.00  0.00           O 0
+ATOM    647  CG2AVAL A  82      27.113  -6.346 -19.479  0.00  0.00           C 0
+ATOM     94  CD2ALEU A  10      27.209  -5.260 -23.756  0.00  0.00           C 0
+ATOM    175   CGAGLU A  21      31.279  -6.210 -24.669  0.00  0.00           C 0
+ATOM    177  OE1AGLU A  21      30.784  -8.475 -24.851  0.00  0.00           O 0
+ATOM     93  CD1ALEU A  10      26.923  -7.008 -25.545  0.00  0.00           C 0
+ATOM     78  NH1AARG A   8      22.995  -9.584 -21.735  0.00  0.00           N 0
+ATOM    645   CBAVAL A  82      26.616  -6.869 -18.141  0.00  0.00           C 0
+ATOM    173    OAGLU A  21      32.331  -5.021 -21.262  0.21  3.21           O 0
+ATOM    648    NAASN A  83      29.388  -5.494 -17.534  0.00  0.00           N 0
+ATOM    655  ND2AASN A  83      33.181  -5.830 -18.584  0.51  2.19           N 0
+ATOM    653   CGAASN A  83      32.374  -5.294 -17.674  0.00  0.00           C 0
+ATOM    654  OD1AASN A  83      32.386  -5.578 -16.484  0.74  2.14           O 0
+ATOM    266   CBAGLU A  34      33.603  -7.754 -14.091  0.00  0.00           C 0
+TER
+END
