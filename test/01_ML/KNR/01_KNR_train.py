@@ -151,7 +151,7 @@ class KNROptimization:
         n_neighbors = trial.suggest_int('n_neighbors', 1, max_n_neighbors)
         weights = trial.suggest_categorical('weights', ['uniform', 'distance'])
 
-        metric = trial.suggest_categorical('metric', ['jaccard', 'hamming'])
+        metric = trial.suggest_categorical('metric', ['hamming'])
 
         fold_results = Parallel(n_jobs=self.n_jobs)(
             delayed(evaluate_fold)(
