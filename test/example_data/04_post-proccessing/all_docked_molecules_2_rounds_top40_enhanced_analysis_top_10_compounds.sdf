@@ -1,0 +1,1815 @@
+Z271090688
+     RDKit          3D
+
+ 31 35  0  0  0  0  0  0  0  0999 V2000
+    6.8668    0.4535    2.5983 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1943    1.5313    2.0169 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0627    1.3225    1.2104 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5849    0.0152    1.0277 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2396   -1.0672    1.6145 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3717   -0.8391    2.3882 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0000   -1.8870    2.9449 F   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3446    2.4363    0.5899 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2014    2.9321    1.0305 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8144    3.9450    0.1955 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7171    4.0615   -0.7531 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6969    3.1202   -0.5602 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8140    2.8061   -1.4256 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8218    3.3666   -2.8543 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4761    3.2578   -3.5654 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4963    4.3880   -3.2268 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6870    5.0446   -1.8614 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5220    1.6559    1.9881 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2274    1.1730    3.0803 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0179    0.5811    3.4014 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9536    0.2004    4.3070 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2351    1.1473    4.2370 C   0  0  1  0  0  0  0  0  0  0  0  0
+    9.7230    0.2071    5.3229 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5770    0.2473    6.4742 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9000    0.1803    6.1190 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.8062   -0.1204    7.1341 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1675   -0.2273    6.8409 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6212   -0.0282    5.5342 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7156    0.2872    4.5197 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.3576    0.4049    4.8153 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5290    0.7321    3.7739 O   0  0  0  0  0  0  0  0  0  0  0  0
+ 18 19  2  0
+ 19 20  1  0
+ 20  1  1  0
+  1  2  2  0
+  2  3  1  0
+  3  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+ 22 19  1  6
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  2  0
+ 28 29  1  0
+ 29 30  2  0
+ 30 31  1  0
+  6  1  1  0
+ 31 22  1  0
+ 12  8  1  0
+ 30 25  1  0
+ 17 11  1  0
+ 20 21  1  0
+M  END
+>  <Rank>  (1) 
+1
+
+>  <smiles>  (1) 
+[H]N(C(=O)[C@H]1COc2ccccc2O1)c1cc(-c2nnc3n2CCCCC3)ccc1F
+
+>  <Composite_Score>  (1) 
+0.504614
+
+>  <Affinity_Numeric>  (1) 
+-7.70048
+
+>  <MW>  (1) 
+408.433
+
+>  <LogP>  (1) 
+3.5891
+
+>  <HBD>  (1) 
+1
+
+>  <HBA>  (1) 
+6
+
+>  <TPSA>  (1) 
+78.27
+
+>  <RotBonds>  (1) 
+3
+
+>  <QED>  (1) 
+0.716671
+
+>  <SA_Score>  (1) 
+3.368085
+
+>  <Lipinski_Compliant>  (1) 
+True
+
+>  <Lead_Like>  (1) 
+False
+
+>  <Lipinski_Violations>  (1) 
+0
+
+>  <Glaxo_pass_filter>  (1) 
+True
+
+>  <Dundee_pass_filter>  (1) 
+True
+
+>  <BMS_pass_filter>  (1) 
+True
+
+>  <PAINS_pass_filter>  (1) 
+True
+
+>  <SureChEMBL_pass_filter>  (1) 
+True
+
+>  <MLSMR_pass_filter>  (1) 
+True
+
+>  <Inpharmatica_pass_filter>  (1) 
+True
+
+>  <LINT_pass_filter>  (1) 
+True
+
+>  <Alarm-NMR_pass_filter>  (1) 
+True
+
+>  <AlphaScreen-Hitters_pass_filter>  (1) 
+True
+
+>  <GST-Hitters_pass_filter>  (1) 
+True
+
+>  <HIS-Hitters_pass_filter>  (1) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (1) 
+True
+
+>  <DNABinder_pass_filter>  (1) 
+False
+
+>  <Chelator_pass_filter>  (1) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (1) 
+True
+
+>  <Electrophilic_pass_filter>  (1) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (1) 
+False
+
+>  <LD50-Oral_pass_filter>  (1) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (1) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (1) 
+False
+
+>  <Skin_pass_filter>  (1) 
+False
+
+>  <Toxicophore_pass_filter>  (1) 
+False
+
+$$$$
+Z1166114238
+     RDKit          3D
+
+ 28 31  0  0  0  0  0  0  0  0999 V2000
+    6.6540   -3.3461    5.4232 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9619   -4.4942    6.0483 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7901   -5.2403    5.9739 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8745   -4.4657    5.3207 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3555   -3.2955    4.9609 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3806   -0.1069    4.9248 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6932   -0.2554    6.1310 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8034   -1.3220    6.2875 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5868   -2.2374    5.2441 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2768   -2.0593    4.0333 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1682   -0.9948    3.8685 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.0586    0.4584    4.4186 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5022    1.2561    4.7143 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1156    1.9564    3.5046 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5860    1.9530    5.9836 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4997   -5.0623    5.0983 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1982   -6.0705    6.2495 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9650   -6.9112    5.9538 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1594   -7.6505    4.7518 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3255   -6.8032    3.6208 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5487   -5.9079    3.7900 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4643   -3.9070    5.0891 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0360   -3.3371    6.3099 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1179   -2.2839    6.3419 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6245   -1.7712    5.1535 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2542   -0.7612    5.1805 F   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0420   -2.2851    3.9355 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9621   -3.3387    3.9024 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 12 13  1  0
+ 13 14  2  0
+ 13 15  2  0
+ 13  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9  1  1  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4 16  1  0
+ 16 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 25 27  1  0
+ 27 28  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+  4  5  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11  6  1  0
+  5  1  1  0
+ 21 16  1  0
+ 28 22  1  0
+M  END
+>  <Rank>  (2) 
+2
+
+>  <smiles>  (2) 
+CS(=O)(=O)c1ccc(-c2noc(C3(c4ccc(F)cc4)CCOCC3)n2)cc1
+
+>  <Composite_Score>  (2) 
+0.493712
+
+>  <Affinity_Numeric>  (2) 
+-7.4316
+
+>  <MW>  (2) 
+402.447
+
+>  <LogP>  (2) 
+3.3757
+
+>  <HBD>  (2) 
+0
+
+>  <HBA>  (2) 
+6
+
+>  <TPSA>  (2) 
+82.29
+
+>  <RotBonds>  (2) 
+4
+
+>  <QED>  (2) 
+0.665438
+
+>  <SA_Score>  (2) 
+2.535243
+
+>  <Lipinski_Compliant>  (2) 
+True
+
+>  <Lead_Like>  (2) 
+False
+
+>  <Lipinski_Violations>  (2) 
+0
+
+>  <Glaxo_pass_filter>  (2) 
+True
+
+>  <Dundee_pass_filter>  (2) 
+True
+
+>  <BMS_pass_filter>  (2) 
+True
+
+>  <PAINS_pass_filter>  (2) 
+True
+
+>  <SureChEMBL_pass_filter>  (2) 
+True
+
+>  <MLSMR_pass_filter>  (2) 
+True
+
+>  <Inpharmatica_pass_filter>  (2) 
+True
+
+>  <LINT_pass_filter>  (2) 
+True
+
+>  <Alarm-NMR_pass_filter>  (2) 
+False
+
+>  <AlphaScreen-Hitters_pass_filter>  (2) 
+True
+
+>  <GST-Hitters_pass_filter>  (2) 
+True
+
+>  <HIS-Hitters_pass_filter>  (2) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (2) 
+True
+
+>  <DNABinder_pass_filter>  (2) 
+True
+
+>  <Chelator_pass_filter>  (2) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (2) 
+True
+
+>  <Electrophilic_pass_filter>  (2) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (2) 
+True
+
+>  <LD50-Oral_pass_filter>  (2) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (2) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (2) 
+True
+
+>  <Skin_pass_filter>  (2) 
+True
+
+>  <Toxicophore_pass_filter>  (2) 
+False
+
+$$$$
+Z288365102
+     RDKit          3D
+
+ 30 34  0  0  0  0  0  0  0  0999 V2000
+    7.5079   -1.6785    3.1768 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7021   -0.5863    2.5256 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5298   -0.9418    1.8389 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7390    0.0294    1.2245 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1014    1.3767    1.2789 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2888    1.7283    1.9358 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0816    0.7709    2.5825 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2597    2.3748    0.6172 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1008    2.8073    1.0776 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5827    3.7075    0.1872 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4372    3.8457   -0.8038 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5366    3.0576   -0.5530 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7624    2.9778   -1.3245 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1420    4.2478   -2.0805 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3514    4.4536   -3.3720 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8470    4.2024   -3.2689 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2310    4.7360   -1.9818 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2635    1.1225    3.2721 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5446    1.2567    2.7601 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8668    1.1220    1.5808 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1650    1.2935    4.2366 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6102    1.5269    3.8176 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.9638    0.9295    3.4061 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.6669    0.4972    4.6603 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0193    0.1827    4.7448 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5373   -0.2571    5.9648 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7048   -0.3897    7.0833 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.3459   -0.0837    6.9918 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.8419    0.3578    5.7780 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1647    0.7937    5.4389 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+  5  6  1  0
+  6  7  2  0
+  7 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+ 22 19  1  6
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 28 29  2  0
+ 29 30  1  0
+  7  2  1  0
+ 30 22  1  0
+ 12  8  1  0
+ 29 24  1  0
+ 17 11  1  0
+ 18 21  1  0
+M  END
+>  <Rank>  (3) 
+3
+
+>  <smiles>  (3) 
+[H]N(C(=O)[C@@H]1Cc2ccccc2S1)c1cc(-c2nnc3n2CCCCC3)ccc1C
+
+>  <Composite_Score>  (3) 
+0.480793
+
+>  <Affinity_Numeric>  (3) 
+-7.39672
+
+>  <MW>  (3) 
+404.539
+
+>  <LogP>  (3) 
+4.63542
+
+>  <HBD>  (3) 
+1
+
+>  <HBA>  (3) 
+5
+
+>  <TPSA>  (3) 
+59.81
+
+>  <RotBonds>  (3) 
+3
+
+>  <QED>  (3) 
+0.691092
+
+>  <SA_Score>  (3) 
+3.433174
+
+>  <Lipinski_Compliant>  (3) 
+True
+
+>  <Lead_Like>  (3) 
+False
+
+>  <Lipinski_Violations>  (3) 
+0
+
+>  <Glaxo_pass_filter>  (3) 
+True
+
+>  <Dundee_pass_filter>  (3) 
+True
+
+>  <BMS_pass_filter>  (3) 
+True
+
+>  <PAINS_pass_filter>  (3) 
+True
+
+>  <SureChEMBL_pass_filter>  (3) 
+True
+
+>  <MLSMR_pass_filter>  (3) 
+True
+
+>  <Inpharmatica_pass_filter>  (3) 
+True
+
+>  <LINT_pass_filter>  (3) 
+True
+
+>  <Alarm-NMR_pass_filter>  (3) 
+False
+
+>  <AlphaScreen-Hitters_pass_filter>  (3) 
+True
+
+>  <GST-Hitters_pass_filter>  (3) 
+True
+
+>  <HIS-Hitters_pass_filter>  (3) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (3) 
+True
+
+>  <DNABinder_pass_filter>  (3) 
+False
+
+>  <Chelator_pass_filter>  (3) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (3) 
+True
+
+>  <Electrophilic_pass_filter>  (3) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (3) 
+False
+
+>  <LD50-Oral_pass_filter>  (3) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (3) 
+True
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (3) 
+False
+
+>  <Skin_pass_filter>  (3) 
+False
+
+>  <Toxicophore_pass_filter>  (3) 
+False
+
+$$$$
+Z1166112260
+     RDKit          3D
+
+ 28 32  0  0  0  0  0  0  0  0999 V2000
+    4.7892   -4.9147    5.6754 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7525   -5.6120    6.2437 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8796   -4.8181    6.2163 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5341   -3.6904    5.6296 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2147   -3.6803    5.2540 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3254   -2.5030    5.3352 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5986   -1.5325    6.3141 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3650   -0.4034    6.0082 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8691   -0.2345    4.7222 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5832   -1.1776    3.7320 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8296   -2.3107    4.0396 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0171   -1.0600    2.4362 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4678    0.2701    2.1546 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3620    0.7813    3.2722 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6302    0.8836    4.4996 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3462   -5.3164    5.4229 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9810   -6.3045    6.5759 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9899   -7.3597    6.1105 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5271   -8.1843    5.0775 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4522   -7.5427    4.2020 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1775   -6.0533    4.0591 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0250   -0.6975    4.9894 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8094   -1.7772    5.1005 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2382   -2.4339    3.9579 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0535   -3.5618    4.0777 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4592   -4.0463    5.3435 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9959   -3.3589    6.4811 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1790   -2.2297    6.3586 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 16  1  0
+ 16  1  1  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 10 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+  4  5  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 26 27  1  0
+ 27 28  2  0
+ 28 23  1  0
+ 21 16  1  0
+  5  1  1  0
+ 11  6  1  0
+ 15  9  1  0
+M  END
+>  <Rank>  (4) 
+4
+
+>  <smiles>  (4) 
+Fc1ccc(C2(c3nnc(-c4ccc5c(c4)OCCO5)o3)CCOCC2)cc1
+
+>  <Composite_Score>  (4) 
+0.478284
+
+>  <Affinity_Numeric>  (4) 
+-7.1176
+
+>  <MW>  (4) 
+382.391
+
+>  <LogP>  (4) 
+3.7434
+
+>  <HBD>  (4) 
+0
+
+>  <HBA>  (4) 
+6
+
+>  <TPSA>  (4) 
+66.61
+
+>  <RotBonds>  (4) 
+3
+
+>  <QED>  (4) 
+0.68748
+
+>  <SA_Score>  (4) 
+2.645784
+
+>  <Lipinski_Compliant>  (4) 
+True
+
+>  <Lead_Like>  (4) 
+False
+
+>  <Lipinski_Violations>  (4) 
+0
+
+>  <Glaxo_pass_filter>  (4) 
+True
+
+>  <Dundee_pass_filter>  (4) 
+True
+
+>  <BMS_pass_filter>  (4) 
+True
+
+>  <PAINS_pass_filter>  (4) 
+True
+
+>  <SureChEMBL_pass_filter>  (4) 
+True
+
+>  <MLSMR_pass_filter>  (4) 
+True
+
+>  <Inpharmatica_pass_filter>  (4) 
+True
+
+>  <LINT_pass_filter>  (4) 
+True
+
+>  <Alarm-NMR_pass_filter>  (4) 
+True
+
+>  <AlphaScreen-Hitters_pass_filter>  (4) 
+True
+
+>  <GST-Hitters_pass_filter>  (4) 
+True
+
+>  <HIS-Hitters_pass_filter>  (4) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (4) 
+True
+
+>  <DNABinder_pass_filter>  (4) 
+True
+
+>  <Chelator_pass_filter>  (4) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (4) 
+True
+
+>  <Electrophilic_pass_filter>  (4) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (4) 
+True
+
+>  <LD50-Oral_pass_filter>  (4) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (4) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (4) 
+True
+
+>  <Skin_pass_filter>  (4) 
+False
+
+>  <Toxicophore_pass_filter>  (4) 
+True
+
+$$$$
+Z1166113024
+     RDKit          3D
+
+ 28 31  0  0  0  0  0  0  0  0999 V2000
+    6.4904   -3.2043    4.0681 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3964   -4.0407    3.0538 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2775   -4.8143    3.2800 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7621   -4.3986    4.4187 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4904   -3.3835    4.9885 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3933   -0.1701    4.8063 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5584   -0.5835    5.8461 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6061   -1.5801    5.6097 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4751   -2.1643    4.3385 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3167   -1.7203    3.3043 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2698   -0.7231    3.5306 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1102    0.2089    5.2867 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5944    1.1092    5.0923 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6855    1.8966    3.8779 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2764    1.7330    6.3626 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5289   -4.8737    5.1588 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0246   -5.4133    6.5370 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2422   -6.6295    7.0277 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8929   -6.5677    6.5972 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7548   -6.7102    5.1835 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8960   -6.0655    4.3968 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4832   -3.7307    5.2223 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0193   -3.1803    6.4318 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0641   -2.1557    6.4486 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5441   -1.6634    5.2561 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9776   -2.2042    4.0561 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4742   -1.7424    2.9042 F   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9262   -3.2238    4.0282 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 12 13  1  0
+ 13 14  2  0
+ 13 15  2  0
+ 13  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9  1  1  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4 16  1  0
+ 16 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  1  0
+ 26 28  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+  4  5  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11  6  1  0
+  5  1  1  0
+ 21 16  1  0
+ 28 22  1  0
+M  END
+>  <Rank>  (5) 
+5
+
+>  <smiles>  (5) 
+CS(=O)(=O)c1ccc(-c2nnc(C3(c4cccc(F)c4)CCOCC3)o2)cc1
+
+>  <Composite_Score>  (5) 
+0.475727
+
+>  <Affinity_Numeric>  (5) 
+-7.17466
+
+>  <MW>  (5) 
+402.447
+
+>  <LogP>  (5) 
+3.3757
+
+>  <HBD>  (5) 
+0
+
+>  <HBA>  (5) 
+6
+
+>  <TPSA>  (5) 
+82.29
+
+>  <RotBonds>  (5) 
+4
+
+>  <QED>  (5) 
+0.665438
+
+>  <SA_Score>  (5) 
+2.601654
+
+>  <Lipinski_Compliant>  (5) 
+True
+
+>  <Lead_Like>  (5) 
+False
+
+>  <Lipinski_Violations>  (5) 
+0
+
+>  <Glaxo_pass_filter>  (5) 
+True
+
+>  <Dundee_pass_filter>  (5) 
+True
+
+>  <BMS_pass_filter>  (5) 
+True
+
+>  <PAINS_pass_filter>  (5) 
+True
+
+>  <SureChEMBL_pass_filter>  (5) 
+True
+
+>  <MLSMR_pass_filter>  (5) 
+True
+
+>  <Inpharmatica_pass_filter>  (5) 
+True
+
+>  <LINT_pass_filter>  (5) 
+True
+
+>  <Alarm-NMR_pass_filter>  (5) 
+False
+
+>  <AlphaScreen-Hitters_pass_filter>  (5) 
+True
+
+>  <GST-Hitters_pass_filter>  (5) 
+True
+
+>  <HIS-Hitters_pass_filter>  (5) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (5) 
+True
+
+>  <DNABinder_pass_filter>  (5) 
+True
+
+>  <Chelator_pass_filter>  (5) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (5) 
+True
+
+>  <Electrophilic_pass_filter>  (5) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (5) 
+True
+
+>  <LD50-Oral_pass_filter>  (5) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (5) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (5) 
+True
+
+>  <Skin_pass_filter>  (5) 
+True
+
+>  <Toxicophore_pass_filter>  (5) 
+False
+
+$$$$
+Z333016990
+     RDKit          3D
+
+ 30 33  0  0  0  0  0  0  0  0999 V2000
+   15.8228    0.7353    5.2763 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9680    0.3990    6.0942 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6392    0.2415    5.6999 N   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3178    0.4231    4.2788 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1212   -0.4243    3.8344 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.8925   -0.1664    4.6992 N   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1788    0.4794    6.0370 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5185   -0.0043    6.6138 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5624   -1.1031    4.9318 H   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2918    0.1394    7.5633 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6735    0.5936    7.9750 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0225    1.9487    7.9328 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2951    2.3640    8.3341 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2330    1.4330    8.7883 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.7852    2.0202    9.2650 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   18.8931    0.0796    8.8412 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.9940   -1.1321    9.3892 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   17.6179   -0.3357    8.4386 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7599    0.5120    3.9527 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6310   -0.4639    3.6937 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9962   -0.5013    2.5186 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9125   -1.4806    2.3226 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3493   -1.5101    1.2321 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6374   -2.2916    3.4106 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6211   -3.2358    3.3077 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3110   -4.0505    4.3228 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0358   -3.9602    5.5618 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0270   -3.0725    5.7076 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3793   -2.1629    4.5801 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3518   -1.3098    4.7449 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 14 16  1  0
+ 16 17  1  0
+ 16 18  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6 19  1  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 22 24  1  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  2  0
+ 28 29  1  0
+ 29 30  2  0
+  6  7  1  0
+  7  8  1  0
+ 18 11  1  0
+  8  3  1  0
+ 30 20  1  0
+ 29 24  1  0
+  6  9  1  0
+M  CHG  1   6   1
+M  END
+>  <Rank>  (6) 
+6
+
+>  <smiles>  (6) 
+[H][N+]1(Cc2cc(=O)n3ccccc3n2)CCN(C(=O)Cc2ccc(Cl)c(Cl)c2)CC1
+
+>  <Composite_Score>  (6) 
+0.464921
+
+>  <Affinity_Numeric>  (6) 
+-7.12411
+
+>  <MW>  (6) 
+432.331
+
+>  <LogP>  (6) 
+1.4711
+
+>  <HBD>  (6) 
+1
+
+>  <HBA>  (6) 
+4
+
+>  <TPSA>  (6) 
+59.12
+
+>  <RotBonds>  (6) 
+4
+
+>  <QED>  (6) 
+0.679719
+
+>  <SA_Score>  (6) 
+3.516468
+
+>  <Lipinski_Compliant>  (6) 
+True
+
+>  <Lead_Like>  (6) 
+False
+
+>  <Lipinski_Violations>  (6) 
+0
+
+>  <Glaxo_pass_filter>  (6) 
+False
+
+>  <Dundee_pass_filter>  (6) 
+True
+
+>  <BMS_pass_filter>  (6) 
+True
+
+>  <PAINS_pass_filter>  (6) 
+True
+
+>  <SureChEMBL_pass_filter>  (6) 
+False
+
+>  <MLSMR_pass_filter>  (6) 
+False
+
+>  <Inpharmatica_pass_filter>  (6) 
+True
+
+>  <LINT_pass_filter>  (6) 
+True
+
+>  <Alarm-NMR_pass_filter>  (6) 
+True
+
+>  <AlphaScreen-Hitters_pass_filter>  (6) 
+True
+
+>  <GST-Hitters_pass_filter>  (6) 
+True
+
+>  <HIS-Hitters_pass_filter>  (6) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (6) 
+True
+
+>  <DNABinder_pass_filter>  (6) 
+False
+
+>  <Chelator_pass_filter>  (6) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (6) 
+True
+
+>  <Electrophilic_pass_filter>  (6) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (6) 
+True
+
+>  <LD50-Oral_pass_filter>  (6) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (6) 
+True
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (6) 
+False
+
+>  <Skin_pass_filter>  (6) 
+True
+
+>  <Toxicophore_pass_filter>  (6) 
+True
+
+$$$$
+Z229842200
+     RDKit          3D
+
+ 32 36  0  0  0  0  0  0  0  0999 V2000
+    7.5341   -0.3302    3.1198 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2833    0.8291    3.2430 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2268    0.5862    4.1968 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1379   -0.6420    4.7293 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1063   -1.2205    4.0886 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7252   -2.5895    4.4392 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9320   -2.8579    5.5625 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5901   -4.1737    5.8910 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0492   -5.2268    5.1026 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6284   -6.8451    5.5083 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    7.8507   -4.9780    3.9910 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1904   -3.6624    3.6632 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2358   -1.6656    1.6619 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4467   -0.5740    2.1803 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6551    0.5172    1.9079 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9098    1.4003    2.2607 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4582    0.3892    1.1139 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0366    1.7469    0.7068 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0147    2.4517    1.1759 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0033    3.6959    0.5482 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0181    3.6997   -0.2725 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6725    2.5149   -0.1972 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8277    2.4409   -1.0573 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6069    3.6509   -1.9885 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6541    4.6151   -1.2307 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2394    1.5180    4.6784 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5127    0.8075    5.0653 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.4879    0.5099    4.1021 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6632   -0.1492    4.4663 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8763   -0.5163    5.7937 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.9150   -0.2259    6.7595 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7394    0.4330    6.3987 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 14  1  1  0
+  1  2  2  0
+  2  3  1  0
+  3 26  1  0
+ 26 27  1  0
+ 27 28  2  0
+ 28 29  1  0
+ 29 30  2  0
+ 30 31  1  0
+ 31 32  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  2  0
+ 22 18  1  0
+  5  1  1  0
+ 12  6  1  0
+ 25 21  1  0
+ 32 27  1  0
+ 15 16  1  0
+M  END
+>  <Rank>  (7) 
+7
+
+>  <smiles>  (7) 
+[H]N(Cc1nnc2n1CCC2)C(=O)c1cn(Cc2ccccc2)nc1-c1ccc(Cl)cc1
+
+>  <Composite_Score>  (7) 
+0.46099
+
+>  <Affinity_Numeric>  (7) 
+-7.19565
+
+>  <MW>  (7) 
+432.915
+
+>  <LogP>  (7) 
+3.7195
+
+>  <HBD>  (7) 
+1
+
+>  <HBA>  (7) 
+6
+
+>  <TPSA>  (7) 
+77.63
+
+>  <RotBonds>  (7) 
+6
+
+>  <QED>  (7) 
+0.503385
+
+>  <SA_Score>  (7) 
+2.831552
+
+>  <Lipinski_Compliant>  (7) 
+True
+
+>  <Lead_Like>  (7) 
+False
+
+>  <Lipinski_Violations>  (7) 
+0
+
+>  <Glaxo_pass_filter>  (7) 
+True
+
+>  <Dundee_pass_filter>  (7) 
+True
+
+>  <BMS_pass_filter>  (7) 
+True
+
+>  <PAINS_pass_filter>  (7) 
+True
+
+>  <SureChEMBL_pass_filter>  (7) 
+True
+
+>  <MLSMR_pass_filter>  (7) 
+True
+
+>  <Inpharmatica_pass_filter>  (7) 
+True
+
+>  <LINT_pass_filter>  (7) 
+True
+
+>  <Alarm-NMR_pass_filter>  (7) 
+True
+
+>  <AlphaScreen-Hitters_pass_filter>  (7) 
+True
+
+>  <GST-Hitters_pass_filter>  (7) 
+True
+
+>  <HIS-Hitters_pass_filter>  (7) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (7) 
+True
+
+>  <DNABinder_pass_filter>  (7) 
+False
+
+>  <Chelator_pass_filter>  (7) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (7) 
+True
+
+>  <Electrophilic_pass_filter>  (7) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (7) 
+True
+
+>  <LD50-Oral_pass_filter>  (7) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (7) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (7) 
+True
+
+>  <Skin_pass_filter>  (7) 
+False
+
+>  <Toxicophore_pass_filter>  (7) 
+True
+
+$$$$
+Z1822519050
+     RDKit          3D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+    9.5106    0.0817    5.5641 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8301    1.3093    6.0849 N   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0548    1.5902    5.6641 N   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4023    0.5488    4.8826 N   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4801   -0.4362    4.7906 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2007   -0.5698    5.7981 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7210   -1.2625    0.5673 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3851   -1.0873    1.9005 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6121   -2.1907    2.7301 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2002   -2.0243    3.9862 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5660   -0.7487    4.4401 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3188    0.3572    3.6140 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7302    0.1890    2.3583 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7306    0.4204    4.3250 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7126    0.1700    5.4005 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.4551   -0.6253    6.4490 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6249   -0.5474    7.2066 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4645    0.3092    6.5499 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9389    0.7922    5.4442 N   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7694    0.5603    7.1514 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.6749    1.4189    6.5033 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9325    1.6805    7.0538 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2902    1.0842    8.2558 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.4946    1.3343    8.7849 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4152    0.2314    8.9169 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1569   -0.0309    8.3664 C   0  0  0  0  0  0  0  0  0  0  0  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11  6  1  0
+  6  1  1  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 23 25  1  0
+ 25 26  2  0
+ 18 19  2  0
+  4  5  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13  8  1  0
+  5  1  2  0
+ 19 15  1  0
+ 26 20  1  0
+M  END
+>  <Rank>  (8) 
+8
+
+>  <smiles>  (8) 
+Cc1ccc(Cc2nnn(Cc3noc(-c4ccc(F)cc4)n3)n2)cc1
+
+>  <Composite_Score>  (8) 
+0.452739
+
+>  <Affinity_Numeric>  (8) 
+-6.94856
+
+>  <MW>  (8) 
+350.357
+
+>  <LogP>  (8) 
+2.80972
+
+>  <HBD>  (8) 
+0
+
+>  <HBA>  (8) 
+7
+
+>  <TPSA>  (8) 
+82.52
+
+>  <RotBonds>  (8) 
+5
+
+>  <QED>  (8) 
+0.550353
+
+>  <SA_Score>  (8) 
+2.372719
+
+>  <Lipinski_Compliant>  (8) 
+True
+
+>  <Lead_Like>  (8) 
+False
+
+>  <Lipinski_Violations>  (8) 
+0
+
+>  <Glaxo_pass_filter>  (8) 
+True
+
+>  <Dundee_pass_filter>  (8) 
+True
+
+>  <BMS_pass_filter>  (8) 
+True
+
+>  <PAINS_pass_filter>  (8) 
+True
+
+>  <SureChEMBL_pass_filter>  (8) 
+True
+
+>  <MLSMR_pass_filter>  (8) 
+True
+
+>  <Inpharmatica_pass_filter>  (8) 
+True
+
+>  <LINT_pass_filter>  (8) 
+True
+
+>  <Alarm-NMR_pass_filter>  (8) 
+True
+
+>  <AlphaScreen-Hitters_pass_filter>  (8) 
+True
+
+>  <GST-Hitters_pass_filter>  (8) 
+True
+
+>  <HIS-Hitters_pass_filter>  (8) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (8) 
+True
+
+>  <DNABinder_pass_filter>  (8) 
+False
+
+>  <Chelator_pass_filter>  (8) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (8) 
+True
+
+>  <Electrophilic_pass_filter>  (8) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (8) 
+True
+
+>  <LD50-Oral_pass_filter>  (8) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (8) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (8) 
+True
+
+>  <Skin_pass_filter>  (8) 
+True
+
+>  <Toxicophore_pass_filter>  (8) 
+True
+
+$$$$
+Z234896153
+     RDKit          3D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+   -0.2014    4.8443   -4.7500 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4516    5.2855   -3.6417 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3089    6.3147   -3.3883 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2765    6.4474   -2.0418 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4926    5.6327   -1.4067 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0491    4.8966   -2.4262 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1340    7.4925   -1.4681 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4106    7.1948   -0.9701 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2020    8.2120   -0.4306 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7161    9.5147   -0.3913 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4777   10.4867    0.1266 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4520    9.8231   -0.8814 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6567    8.8104   -1.4219 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9008    3.7501   -2.2085 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2324    4.1799   -1.6995 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5170    4.2334   -0.3897 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8363    4.6906   -0.3675 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2110    4.8789   -1.6689 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2566    4.5863   -2.5247 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5641    5.3650   -1.9134 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8960    6.7266   -1.8248 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2049    7.1602   -2.0644 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1929    6.2357   -2.3951 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8008    6.7700   -2.6891 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    7.8844    4.8813   -2.4885 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5760    4.4497   -2.2483 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 13  2  0
+  4  5  2  0
+  5  6  1  0
+  6 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 23 25  1  0
+ 25 26  2  0
+ 18 19  2  0
+  6  2  1  0
+ 19 15  1  0
+ 13  7  1  0
+ 26 20  1  0
+M  END
+>  <Rank>  (9) 
+9
+
+>  <smiles>  (9) 
+O=c1oc(-c2ccc(F)cc2)nn1Cc1noc(-c2ccc(Cl)cc2)n1
+
+>  <Composite_Score>  (9) 
+0.452523
+
+>  <Affinity_Numeric>  (9) 
+-6.95259
+
+>  <MW>  (9) 
+372.743
+
+>  <LogP>  (9) 
+3.3941
+
+>  <HBD>  (9) 
+0
+
+>  <HBA>  (9) 
+7
+
+>  <TPSA>  (9) 
+86.95
+
+>  <RotBonds>  (9) 
+4
+
+>  <QED>  (9) 
+0.545373
+
+>  <SA_Score>  (9) 
+2.309519
+
+>  <Lipinski_Compliant>  (9) 
+True
+
+>  <Lead_Like>  (9) 
+False
+
+>  <Lipinski_Violations>  (9) 
+0
+
+>  <Glaxo_pass_filter>  (9) 
+True
+
+>  <Dundee_pass_filter>  (9) 
+True
+
+>  <BMS_pass_filter>  (9) 
+True
+
+>  <PAINS_pass_filter>  (9) 
+True
+
+>  <SureChEMBL_pass_filter>  (9) 
+True
+
+>  <MLSMR_pass_filter>  (9) 
+True
+
+>  <Inpharmatica_pass_filter>  (9) 
+True
+
+>  <LINT_pass_filter>  (9) 
+True
+
+>  <Alarm-NMR_pass_filter>  (9) 
+False
+
+>  <AlphaScreen-Hitters_pass_filter>  (9) 
+True
+
+>  <GST-Hitters_pass_filter>  (9) 
+True
+
+>  <HIS-Hitters_pass_filter>  (9) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (9) 
+True
+
+>  <DNABinder_pass_filter>  (9) 
+True
+
+>  <Chelator_pass_filter>  (9) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (9) 
+True
+
+>  <Electrophilic_pass_filter>  (9) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (9) 
+True
+
+>  <LD50-Oral_pass_filter>  (9) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (9) 
+False
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (9) 
+True
+
+>  <Skin_pass_filter>  (9) 
+True
+
+>  <Toxicophore_pass_filter>  (9) 
+True
+
+$$$$
+Z240139220
+     RDKit          3D
+
+ 31 34  0  0  0  0  0  0  0  0999 V2000
+    5.7332   -0.6576    1.3845 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4064   -1.8448    1.4085 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9246    0.2947    0.7633 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7819   -0.1890   -0.0090 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1635    0.9081   -0.8809 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6986    2.0843   -0.0685 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4258    2.2182    1.2441 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8697    1.7070    1.1630 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1457    0.6695    6.3263 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3832    0.6001    5.0259 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.9765    1.1367    3.8718 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3340    1.1296    2.6197 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0608    1.7089    1.4360 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0429    0.5613    2.5516 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1065    0.3742    1.4911 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9698   -0.2262    2.0002 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2326   -0.4669    3.3291 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4621    0.0313    3.7052 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0894    0.0313    4.9702 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4414   -0.5325    6.2067 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6178   -0.9374    3.9372 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5581    3.5651   -0.9248 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2105    3.6032   -1.4544 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0408    4.5980   -0.0304 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7206    3.3181   -2.2769 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6194    4.5207   -2.3940 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9237    4.4858   -1.8764 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7546    5.6028   -1.9769 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2927    6.7628   -2.5931 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0025    6.8069   -3.1222 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1683    5.6922   -3.0242 C   0  0  0  0  0  0  0  0  0  0  0  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 12 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16  1  1  0
+  1  2  2  0
+  1  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6 22  1  0
+ 22 23  2  0
+ 22 24  2  0
+ 22 25  1  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 28 29  2  0
+ 29 30  1  0
+ 30 31  2  0
+  6  7  1  0
+  7  8  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 19 10  1  0
+ 18 14  1  0
+  8  3  1  0
+ 31 26  1  0
+ 17 21  1  0
+M  END
+>  <Rank>  (10) 
+10
+
+>  <smiles>  (10) 
+[H]n1c(C(=O)N2CCN(S(=O)(=O)Cc3ccccc3)CC2)cc2c(C)cc(C)c(C)c21
+
+>  <Composite_Score>  (10) 
+0.450474
+
+>  <Affinity_Numeric>  (10) 
+-6.83174
+
+>  <MW>  (10) 
+425.554
+
+>  <LogP>  (10) 
+3.38096
+
+>  <HBD>  (10) 
+1
+
+>  <HBA>  (10) 
+3
+
+>  <TPSA>  (10) 
+73.48
+
+>  <RotBonds>  (10) 
+4
+
+>  <QED>  (10) 
+0.696437
+
+>  <SA_Score>  (10) 
+2.822305
+
+>  <Lipinski_Compliant>  (10) 
+True
+
+>  <Lead_Like>  (10) 
+False
+
+>  <Lipinski_Violations>  (10) 
+0
+
+>  <Glaxo_pass_filter>  (10) 
+True
+
+>  <Dundee_pass_filter>  (10) 
+True
+
+>  <BMS_pass_filter>  (10) 
+True
+
+>  <PAINS_pass_filter>  (10) 
+True
+
+>  <SureChEMBL_pass_filter>  (10) 
+True
+
+>  <MLSMR_pass_filter>  (10) 
+False
+
+>  <Inpharmatica_pass_filter>  (10) 
+True
+
+>  <LINT_pass_filter>  (10) 
+True
+
+>  <Alarm-NMR_pass_filter>  (10) 
+False
+
+>  <AlphaScreen-Hitters_pass_filter>  (10) 
+True
+
+>  <GST-Hitters_pass_filter>  (10) 
+True
+
+>  <HIS-Hitters_pass_filter>  (10) 
+True
+
+>  <LuciferaseInhibitor_pass_filter>  (10) 
+True
+
+>  <DNABinder_pass_filter>  (10) 
+False
+
+>  <Chelator_pass_filter>  (10) 
+True
+
+>  <Frequent-Hitter_pass_filter>  (10) 
+True
+
+>  <Electrophilic_pass_filter>  (10) 
+True
+
+>  <Genotoxic-Carcinogenicity_pass_filter>  (10) 
+True
+
+>  <LD50-Oral_pass_filter>  (10) 
+True
+
+>  <Non-Genotoxic-Carcinogenicity_pass_filter>  (10) 
+True
+
+>  <Reactive-Unstable-Toxic_pass_filter>  (10) 
+True
+
+>  <Skin_pass_filter>  (10) 
+True
+
+>  <Toxicophore_pass_filter>  (10) 
+False
+
+$$$$
