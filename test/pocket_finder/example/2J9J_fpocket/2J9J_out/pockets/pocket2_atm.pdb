@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.2110
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9052
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4914
+HEADER 5  - Mean B-factor of pocket residues  : 0.2985
+HEADER 6  - Hydrophobicity Score              : 32.1818
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 157.3446
+HEADER 10 - Pocket volume (convex hull)       : 2.6727
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    387    NAILE A  50      18.377  -2.975  -9.613  0.00  0.00           N 0
+ATOM    385    CAGLY A  49      18.631  -2.356  -8.422  0.00  0.00           C 0
+ATOM    384   CAAGLY A  49      19.715  -1.348  -8.562  0.00  0.00           C 0
+ATOM   1416   CGAPRO B  81      14.867   1.673  -7.223  0.00  0.00           C 0
+ATOM    401  CD1AILE A  50      14.330  -3.042 -10.892  0.00  0.00           C 0
+ATOM   1417   CDAPRO B  81      13.928   0.514  -7.483  0.00  0.00           C 0
+ATOM   1409  OG1ATHR B  80      12.688  -0.194 -10.315  0.00  0.00           O 0
+ATOM   1445  CG2AILE B  84      14.465   1.744 -14.854  0.00  0.00           C 0
+ATOM    985  OD2AASP B  25      17.936   0.759 -17.238  0.00  0.00           O 0
+ATOM    218    OAGLY A  27      20.358   3.523 -14.393  0.37  1.07           O 0
+ATOM   1582    CAASN C   3      21.429   0.304 -12.369  0.00  0.00           C 0
+ATOM   1423  CG1AVAL B  82      14.418   3.671 -11.968  0.00  0.00           C 0
+ATOM   1580    NAASN C   3      21.605   1.988 -10.602  0.00  0.00           N 0
+ATOM   1576   CBALEU C   2      19.730   4.100  -8.922  0.00  0.00           C 0
+ATOM   1614  CD1AILE C   5      16.775  -3.789 -14.368  0.00  0.00           C 0
+ATOM   1583    OAASN C   3      21.534  -0.802 -11.864  0.00  0.00           O 0
+ATOM   1447  CD1AILE B  84      14.323  -1.117 -15.364  0.00  0.00           C 0
+ATOM    395   CBAILE A  50      16.707  -4.183 -11.080  0.00  0.00           C 0
+TER
+END

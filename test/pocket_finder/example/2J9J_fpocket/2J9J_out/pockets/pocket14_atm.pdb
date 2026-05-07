@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0694
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9204
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5663
+HEADER 5  - Mean B-factor of pocket residues  : 0.2107
+HEADER 6  - Hydrophobicity Score              : 26.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 437.2581
+HEADER 10 - Pocket volume (convex hull)       : 60.8011
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.4286
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM     50   CBATRP A   6      17.470  -4.381 -32.553  0.00  0.00           C 0
+ATOM     36  OG1ATHR A   4      20.180  -0.362 -33.939  0.00  0.00           O 0
+ATOM     65   CGALYS A   7      21.402  -6.743 -31.489  0.00  0.00           C 0
+ATOM     67   CEALYS A   7      23.008  -6.554 -33.490  0.00  0.00           C 0
+ATOM     52  CD1ATRP A   6      17.173  -2.320 -34.074  0.00  0.00           C 0
+ATOM     60    NALYS A   7      19.563  -4.779 -30.082  0.57  1.09           N 0
+ATOM     64   CBALYS A   7      21.645  -6.125 -30.160  0.00  0.00           C 0
+ATOM     34    OATHR A   4      21.093  -0.115 -30.608  0.57  3.21           O 0
+ATOM     29  CG2AILE A   3      24.136   1.224 -30.310  0.00  0.00           C 0
+ATOM     31    NATHR A   4      21.487   1.735 -32.497  0.56  2.19           N 0
+ATOM     72    OAARG A   8      24.110  -4.257 -27.540  0.47  9.64           O 0
+ATOM     63    OALYS A   7      20.964  -3.527 -28.196  0.00  0.00           O 0
+ATOM     81   CAAPRO A   9      24.467  -1.594 -26.829  0.00  0.00           C 0
+ATOM     90    OALEU A  10      28.717  -2.776 -28.257  0.38  6.43           O 0
+ATOM     66   CDALYS A   7      22.683  -7.208 -32.155  0.00  0.00           C 0
+ATOM     69    NAARG A   8      21.562  -5.409 -27.120  0.66  4.37           N 0
+ATOM     93  CD1ALEU A  10      26.923  -7.008 -25.545  0.00  0.00           C 0
+ATOM     73   CBAARG A   8      22.868  -5.607 -25.069  0.00  0.00           C 0
+ATOM     91   CBALEU A  10      27.899  -4.843 -26.152  0.00  0.00           C 0
+ATOM     24   CAAILE A   3      23.540   2.921 -32.060  0.00  0.00           C 0
+ATOM     28  CG1AILE A   3      25.904   2.852 -31.115  0.00  0.00           C 0
+ATOM     12    OAGLN A   2      24.658   3.815 -34.499  0.45  9.64           O 0
+TER
+END

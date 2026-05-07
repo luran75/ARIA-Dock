@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0079
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0201
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6575
+HEADER 5  - Mean B-factor of pocket residues  : 0.2403
+HEADER 6  - Hydrophobicity Score              : 0.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.6745
+HEADER 10 - Pocket volume (convex hull)       : 4.7808
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM    489  OD2AASP A  60      37.631   9.040  -5.843  0.42  5.36           O 0
+HETATM  323    OASLZ A  41      41.764   4.279  -5.738  0.55  4.29           O 0
+ATOM    486   CBAASP A  60      38.506   8.964  -7.932  0.00  0.00           C 0
+HETATM  317   CBASLZ A  41      43.848   5.417  -3.529  0.00  0.00           C 0
+ATOM    482    NAASP A  60      38.825   6.576  -8.417  0.42  1.09           N 0
+ATOM    485    OAASP A  60      40.708   7.729 -10.150  0.26  6.43           O 0
+HETATM  315    NASLZ A  41      44.490   4.216  -5.617  0.52  4.37           N 0
+ATOM    326    CATRP A  42      39.580   2.957  -2.493  0.00  0.00           C 0
+ATOM    344   CDALYS A  43      36.044   6.742  -0.639  0.00  0.00           C 0
+ATOM    342   CBALYS A  43      37.239   4.475  -0.519  0.00  0.00           C 0
+ATOM    327    OATRP A  42      40.267   2.811  -1.484  0.45  3.21           O 0
+ATOM    464    OAGLN A  58      37.605   3.983  -5.377  0.57  3.21           O 0
+ATOM    343   CGALYS A  43      36.264   5.356  -1.246  0.00  0.00           C 0
+ATOM    338    NALYS A  43      38.271   3.221  -2.425  0.00  0.00           N 0
+ATOM    325   CAATRP A  42      40.159   2.961  -3.899  0.00  0.00           C 0
+HETATM  322    CASLZ A  41      42.261   3.840  -4.706  0.00  0.00           C 0
+ATOM    324    NATRP A  42      41.602   3.136  -3.819  0.63  1.09           N 0
+TER
+END

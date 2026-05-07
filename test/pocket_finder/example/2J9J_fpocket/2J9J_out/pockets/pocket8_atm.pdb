@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0287
+HEADER 1  - Drug Score                        : 0.0341
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9985
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6161
+HEADER 5  - Mean B-factor of pocket residues  : 0.2493
+HEADER 6  - Hydrophobicity Score              : 13.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.0684
+HEADER 10 - Pocket volume (convex hull)       : 16.3252
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6522
+ATOM   1239  NH1AARG B  57       2.111  -7.156  -8.558  0.57  4.37           N 0
+ATOM   1237   NEAARG B  57       1.005  -7.970 -10.311  0.00  0.00           N 0
+ATOM   1236   CDAARG B  57       1.593  -9.226 -10.533  0.00  0.00           C 0
+ATOM   1115  CZ2ATRP B  42      -0.147 -12.224 -10.286  0.00  0.00           C 0
+ATOM   1117  CH2ATRP B  42       1.013 -12.949 -10.216  0.00  0.00           C 0
+ATOM   1235   CGAARG B  57       2.952  -9.422 -11.031  0.00  0.00           C 0
+ATOM   1238   CZAARG B  57       1.138  -7.002  -9.426  0.00  0.00           C 0
+ATOM   1116  CZ3ATRP B  42       1.844 -13.047 -11.327  0.00  0.00           C 0
+ATOM   1220   CDALYS B  55       8.768 -13.947  -6.184  0.00  0.00           C 0
+ATOM   1131   CBAPRO B  44       5.291 -15.760 -11.963  0.00  0.00           C 0
+ATOM   1226    OAVAL B  56       6.558 -11.422 -12.128  0.94  5.36           O 0
+ATOM   1403   CDAPRO B  79       8.657  -5.692  -6.968  0.00  0.00           C 0
+HETATM 1070   CEANLE B  36       4.619  -4.104  -7.002  0.00  0.00           C 0
+ATOM   1394   CAAGLY B  78       7.394  -5.245  -9.497  0.00  0.00           C 0
+ATOM   1217    OALYS B  55       8.949  -9.240  -8.829  0.62  3.21           O 0
+ATOM   1389    OAVAL B  77       5.916  -6.787 -11.228  0.76  1.07           O 0
+ATOM   1224   CAAVAL B  56       7.765  -9.474 -11.325  0.00  0.00           C 0
+ATOM   1225    CAVAL B  56       6.580 -10.214 -11.958  0.00  0.00           C 0
+ATOM   1218   CBALYS B  55       9.110 -12.079  -7.788  0.00  0.00           C 0
+ATOM   1216    CALYS B  55       9.140 -10.253  -9.482  0.00  0.00           C 0
+ATOM   1223    NAVAL B  56       8.612 -10.455 -10.680  0.00  0.00           N 0
+TER
+END

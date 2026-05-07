@@ -1,0 +1,78 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.6378
+HEADER 1  - Drug Score                        : 0.8742
+HEADER 2  - Number of alpha spheres           :    84
+HEADER 3  - Mean alpha-sphere radius          : 3.9147
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4981
+HEADER 5  - Mean B-factor of pocket residues  : 0.1834
+HEADER 6  - Hydrophobicity Score              : 19.9565
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.4348
+HEADER 9  - Pocket volume (Monte Carlo)       : 841.0784
+HEADER 10 - Pocket volume (convex hull)       : 337.1678
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 24.7500
+HEADER 13 - Number of apolar alpha sphere     :    32
+HEADER 14 - Proportion of apolar alpha sphere : 0.3810
+ATOM    638   CBAPRO A  81      24.835  -9.105 -14.209  0.00  0.00           C 0
+ATOM   1161    CAGLY B  48      18.573  -8.199 -12.986  0.00  0.00           C 0
+ATOM   1205   CZAPHE B  53      18.797 -13.414 -13.142  0.00  0.00           C 0
+ATOM   1203  CE1APHE B  53      19.513 -13.317 -11.968  0.00  0.00           C 0
+ATOM    639   CGAPRO A  81      24.328  -8.343 -13.065  0.00  0.00           C 0
+ATOM    637    OAPRO A  81      27.189  -9.555 -16.138  0.48  5.36           O 0
+ATOM     78  NH1AARG A   8      22.995  -9.584 -21.735  0.00  0.00           N 0
+ATOM    645   CBAVAL A  82      26.616  -6.869 -18.141  0.00  0.00           C 0
+ATOM   1162    OAGLY B  48      18.361  -7.622 -14.057  0.00  0.00           O 0
+ATOM   1164   CAAGLY B  49      20.373  -6.759 -12.371  0.00  0.00           C 0
+ATOM     79  NH2AARG A   8      20.783  -9.735 -21.160  0.40  2.19           N 0
+ATOM   1159    NAGLY B  48      16.727  -9.751 -13.420  0.00  0.00           N 0
+ATOM    646  CG1AVAL A  82      25.547  -5.905 -17.764  0.00  0.00           C 0
+ATOM   1167    NAILE B  50      21.848  -5.394 -10.992  0.00  0.00           N 0
+ATOM     77   CZAARG A   8      21.764  -9.111 -21.773  0.00  0.00           C 0
+ATOM   1160   CAAGLY B  48      17.919  -9.490 -12.650  0.00  0.00           C 0
+ATOM   1166    OAGLY B  49      21.634  -7.590 -10.690  0.58  2.14           O 0
+ATOM    640   CDAPRO A  81      25.313  -7.399 -12.506  0.00  0.00           C 0
+ATOM    623    OAPRO A  79      27.852  -8.192  -9.419  0.69  7.50           O 0
+ATOM    634    NAPRO A  81      26.597  -7.951 -13.015  0.00  0.00           N 0
+ATOM    635   CAAPRO A  81      26.349  -8.959 -14.023  0.00  0.00           C 0
+ATOM   1583    OAASN C   3      21.534  -0.802 -11.864  0.00  0.00           O 0
+ATOM   1177  CG1AILE B  50      24.645  -3.879 -10.914  0.00  0.00           C 0
+ATOM    665  CG2AILE A  84      25.997  -2.004 -17.200  0.00  0.00           C 0
+ATOM    667  CD1AILE A  84      25.955  -0.418 -14.628  0.00  0.00           C 0
+ATOM   1163    NAGLY B  49      19.430  -7.824 -12.077  0.67  1.09           N 0
+ATOM   1171    CAILE B  50      22.001  -5.603  -8.669  0.00  0.00           C 0
+ATOM   1169   CAAILE B  50      22.804  -5.286  -9.908  0.00  0.00           C 0
+ATOM   1191    NAGLY B  52      20.999  -8.732  -7.924  0.00  0.00           N 0
+ATOM    625   CGAPRO A  79      29.509  -7.826  -6.555  0.00  0.00           C 0
+ATOM    432  CG2AILE A  54      25.493  -6.038  -5.503  0.00  0.00           C 0
+ATOM    624   CBAPRO A  79      29.791  -8.864  -7.605  0.00  0.00           C 0
+ATOM    632  OG1ATHR A  80      27.326  -5.002 -13.209  0.00  0.00           O 0
+ATOM   1610    OAILE C   5      17.992  -6.255 -18.640  0.00  0.00           O 0
+ATOM     76   NEAARG A   8      21.510  -7.994 -22.448  0.00  0.00           N 0
+ATOM   1017  OD2AASP B  30      13.518  -8.221 -18.864  0.71  1.07           O 0
+ATOM   1155   CBAILE B  47      13.775  -9.200 -14.356  0.00  0.00           C 0
+ATOM   1152   CAAILE B  47      14.445 -10.432 -13.713  0.00  0.00           C 0
+ATOM   1157  CG2AILE B  47      12.779  -9.646 -15.398  0.00  0.00           C 0
+ATOM    207  OD2AASP A  25      23.193   0.463 -16.922  0.00  0.00           O 0
+ATOM   1185   CAAGLY B  51      21.693  -6.648  -6.870  0.00  0.00           C 0
+ATOM   1192   CAAGLY B  52      20.381 -10.023  -8.116  0.00  0.00           C 0
+ATOM   1609    CAILE C   5      18.073  -6.495 -17.442  0.00  0.00           C 0
+ATOM   1009  OD2AASP B  29      18.231  -8.586 -21.139  0.83  9.64           O 0
+HETATM 1146    OANLE B  46      13.397 -12.890 -14.531  0.65  4.29           O 0
+ATOM   1142   NZALYS B  45      11.190 -12.869 -19.222  0.50  9.84           N 0
+ATOM   1141   CEALYS B  45      11.096 -11.767 -18.272  0.00  0.00           C 0
+ATOM   1204  CE2APHE B  53      17.447 -13.197 -13.167  0.00  0.00           C 0
+ATOM   1607    NAILE C   5      19.062  -4.524 -16.568  0.00  0.00           N 0
+ATOM   1614  CD1AILE C   5      16.775  -3.789 -14.368  0.00  0.00           C 0
+ATOM   1582    CAASN C   3      21.429   0.304 -12.369  0.00  0.00           C 0
+ATOM    985  OD2AASP B  25      17.936   0.759 -17.238  0.00  0.00           O 0
+ATOM    996    OAGLY B  27      20.152  -2.863 -18.975  0.54  2.14           O 0
+ATOM    191  CD2ALEU A  23      23.879  -3.213 -20.292  0.00  0.00           C 0
+ATOM   1187    CAGLY B  51      21.300  -8.100  -6.818  0.00  0.00           C 0
+ATOM   1189    OAGLY B  51      21.273  -8.728  -5.738  0.73  8.57           O 0
+TER
+END

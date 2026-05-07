@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0393
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9734
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5687
+HEADER 5  - Mean B-factor of pocket residues  : 0.0673
+HEADER 6  - Hydrophobicity Score              : 29.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 157.0463
+HEADER 10 - Pocket volume (convex hull)       : 0.6670
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM    833  NE1ATRP B   6      24.722  18.473 -20.254  0.00  0.00           N 0
+HETATM  747    OAABA A  95      24.756  11.832 -24.141  0.54  1.07           O 0
+ATOM    816  CG2ATHR B   4      21.889  16.905 -23.626  0.00  0.00           C 0
+ATOM    741   CAAGLY A  94      28.886  13.572 -25.493  0.00  0.00           C 0
+ATOM    814   CBATHR B   4      21.828  16.074 -22.356  0.00  0.00           C 0
+ATOM    756  CG2ATHR A  96      23.118  14.064 -26.335  0.00  0.00           C 0
+ATOM    743    OAGLY A  94      27.000  13.106 -26.855  0.21  8.57           O 0
+ATOM    742    CAGLY A  94      27.682  12.751 -25.900  0.00  0.00           C 0
+ATOM    834  CE2ATRP B   6      25.884  18.242 -19.599  0.00  0.00           C 0
+ATOM    722  CG2ATHR A  91      26.502  13.106 -18.768  0.00  0.00           C 0
+ATOM    717   CAATHR A  91      28.289  12.685 -20.485  0.00  0.00           C 0
+ATOM    720   CBATHR A  91      27.926  13.413 -19.193  0.00  0.00           C 0
+ATOM    817    NALEU B   5      22.419  13.589 -20.764  0.80  2.19           N 0
+ATOM    719    OATHR A  91      29.633  14.134 -21.839  0.33  4.29           O 0
+ATOM    836  CZ2ATRP B   6      27.158  18.576 -19.961  0.00  0.00           C 0
+TER
+END
