@@ -35,14 +35,11 @@ O=C(NCC1CN(CCO1)C2CC2)C3=CC=4C=CC(=CC4N3)OC(F)(F)F Z1234926942
  
 Type the following command to see the how to run the workflow: `python aria.py -h` 
 ```
-usage: aria-dock [-h] -p PROTEIN -l LIGAND -d DATABASE [-r ROUNDS]
-                 [-m [{auto,rf,ri,xgb,svr,knr} ...]] [-n NUMBER] [--version]
-                 [--log] [--cpu CPU] [--docking_chunks DOCKING_CHUNKS]
-                 [--percentage PERCENTAGE] [--plug-in [{boostsf-shap} ...]]
-                 [-v]
- 
+usage: aria-dock [-h] -p PROTEIN -l LIGAND -d DATABASE [-r ROUNDS] [-m [{auto,rf,ri,xgb,knr} ...]] [-n NUMBER] [--version] [--log] [--cpu CPU]
+                 [--docking_chunks DOCKING_CHUNKS] [--percentage PERCENTAGE] [--plug-in [{boostsf-shap} ...]] [-v] [--seed SEED]
+
 Active learning platform for structure-based drug design
- 
+
 options:
   -h, --help            show this help message and exit
   -p PROTEIN, --protein PROTEIN
@@ -53,9 +50,8 @@ options:
                         Input database in .smi format
   -r ROUNDS, --rounds ROUNDS
                         Number of rounds to perform
-  -m [{auto,rf,ri,xgb,svr,knr} ...], --model [{auto,rf,ri,xgb,svr,knr} ...]
-                        Type of ML models to run. rf: RandomForest, ri: Ridge, xgb: XGBoost, svr:
-                        Support Vector Regression, knr: K-Nearest Regressor, auto: automatic selection
+  -m [{auto,rf,ri,xgb,knr} ...], --model [{auto,rf,ri,xgb,knr} ...]
+                        Type of ML models to run. rf: RandomForest, ri: Ridge, xgb: XGBoost, knr: K-Nearest Regressor, auto: automatic selection
                         based on metrics. Combination of multiple models is allowed: -e.g., -m rf ri xb
   -n NUMBER, --number NUMBER
                         If auto is selected, then specify the number of models to use (from 1 to 5).
@@ -67,9 +63,9 @@ options:
   --percentage PERCENTAGE
                         Percentage of molecules to select for the first docking round. Default: 1
   --plug-in [{boostsf-shap} ...]
-                        Specify a plug-in to use with Ariadne: BoostSF-SHAP for post-processing
-                        analysis
+                        Specify a plug-in to use with Ariadne: BoostSF-SHAP for post-processing analysis
   -v, --verbose         Enable verbose output with detailed progress information
+  --seed SEED           Random seed for reproducibility. Default: 42
 
 Villoutreix group
 ```
@@ -80,7 +76,7 @@ Villoutreix group
 3. `-d --database`
     The database containing the molecules to screen on the protein target. For the structure of the file check the information above.
 4. `-m --model`
-    The machine learning models to use and combine to predict the binding affinity. rf: RandomForest, ri: Ridge, xb: XGBoost, svr: Support Vector Regression, knr: K-Nearest Regressor. Use the provided sequences of letters to combine the different models (consensus scoring). Select 'auto' to let the workflow decide which methods to use based on their performance on the provided data. WARNING: if you use 'auto' you need to specify how many methods you want to combine with the flag '--number'
+    The machine learning models to use and combine to predict the binding affinity. rf: RandomForest, ri: Ridge, xb: XGBoost, knr: K-Nearest Regressor. Use the provided sequences of letters to combine the different models (consensus scoring). Select 'auto' to let the workflow decide which methods to use based on their performance on the provided data. WARNING: if you use 'auto' you need to specify how many methods you want to combine with the flag '--number'
 5. `-n --number`
     If you use '-m auto' select the number of methods that the workflow should combine.
 6. `--version`
@@ -99,16 +95,18 @@ Villoutreix group
     A SHAP waterfall plot and a SHAP force plot are generated to visualize feature contributions to the predicted binding affinity for each compound.
 12. `-v --verbose`
     Call it to enable verbose mode. This will show a larger amount of lines in the terminal to make debugging easier.
+13. `--seed`
+    Set a seed for reproducibility across trials.
  
 **Example usage**
  
-In the `test` folder, run the following command to test the workflow on a small scale (~200 compounds).
+In the `test` folder, run the following command to test the workflow on a small scale (~2000 compounds).
 ```
 cd test/
 
-python aria.py -p 2yrq_boxB_4.pdb -l 2yrq_boxB_4_fragments.pdb -d small_test.smi -r 5 -m auto -n 2 --cpu 10 --docking_chunks 4 --percentage 10 --plug-in boostsf-shap
+python aria.py -p 2yrq.pdb -l 2yrq_pocket.pdb -d test_2000_comp.smi -r 2 -m auto -n 2 --cpu 10 --docking_chunks 4 --percentage 10 --seed 42 --plug-in boostsf-shap
 ```
-The results of the `test` can already be seen in the `example` folder.
+The results of the `test` can already be seen in the `example_data` folder.
 
 
 ### Data analysis
@@ -133,10 +131,10 @@ cd pocket_finder
 python pocket_finder.py -p PDB_FILE.pdb
 ```
 
-In the `example ` folder the user can find the results of the following code:
+In the `example` folder the user can find the results of the following code:
 
 ```
-python pocket_finder.py -p 3PRS.pdb
+python pocket_finder.py -p 2J9J.pdb
 ```
 
 The script outputs three possible binding pockets (KAA, KAB, KAC) and their relative pdb files that can be used as input for ARIA-Dock. The binding pockets can be visualised in an interactive dashboard that is meant to facilitate the user in choosing the ideal predicted binding pocket.
