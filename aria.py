@@ -29,7 +29,6 @@ import re, logging
 import math
 import concurrent.futures
 dm.disable_rdkit_log()
-random.seed(0)
 
 # RDKit imports
 from rdkit import Chem
@@ -55,7 +54,7 @@ except ImportError:
 	OPENBABEL_AVAILABLE = False
 	print("Warning: OpenBabel not available. pH adjustment disabled.")
 	
-VALID_ATOMS = {'C', 'H', 'O', 'N', 'S', 'P', 'F', 'Cl', 'Br', 'I', 'B', 'Si'}
+VALID_ATOMS = {'C', 'H', 'O', 'N', 'S', 'P', 'F', 'Cl', 'Br', 'I'}
 
 # Suppress FutureWarning messages
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -81,6 +80,7 @@ parser.add_argument('--docking_chunks', type=int, action='store', default=4, hel
 parser.add_argument('--percentage', type=int, action='store', default=1, help='Percentage of molecules to select for the first docking round. Default: 1')
 parser.add_argument('--plug-in', action='extend', nargs="*", type=str, choices=['boostsf-shap'], default=['None'], help='Specify a plug-in to use with Ariadne: BoostSF-SHAP for post-processing analysis')
 parser.add_argument('-v', '--verbose', action='store_true', default=False, help='Enable verbose output with detailed progress information')
+parser.add_argument('--seed', type=int, action='store', default=42, help='Random seed for reproducibility. Default: 42')
 
 
 
@@ -100,6 +100,10 @@ docking_chunks = args.docking_chunks
 percentage = float((args.percentage)/100)
 plug_in = args.plug_in
 verbose = args.verbose
+seed = args.seed
+
+random.seed(seed)
+
 
 # Helper function for verbose printing
 def vprint(*args, **kwargs):
@@ -721,7 +725,7 @@ def process_chunk(chunk_file, target_protein_file, target_ligand_file, strategy,
 		
 		# Docking
 		docking_output_file = f'{chunk_stem}_docked_exha16_1pose_{strategy}_r{r}.sdf'
-		cmd = (f'python smina_progress.py --seed 0 '
+		cmd = (f'python smina_progress.py --seed {seed} '
 			   f'-r {protein_file_abs} '
 			   f'-l {chunk_stem}_3D_H_no_nulls.sdf '
 			   f'--autobox_ligand {ligand_file_abs} '
@@ -802,7 +806,7 @@ def merge_results(files, final_output_file):
 
 
 # For machine learning
-def run_rf_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model):
+def run_rf_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model, seed):
 	"""Runs the Random Forest training and prediction process."""
 	rf_directory = f'{ml_directory}/RF'
 	original_cwd = os.getcwd()
@@ -819,9 +823,9 @@ def run_rf_training(ml_directory, data_analysis_directory, train_test_file, rema
 
 		# Train the ML algorithm
 		if verbose:
-			subprocess.run(["python", '01_RF_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model), '--verbose'], check=True)
+			subprocess.run(["python", '01_RF_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed), '--verbose'], check=True)
 		else:
-			subprocess.run(["python", '01_RF_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model)], check=True)
+			subprocess.run(["python", '01_RF_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed)], check=True)
 
 		# Create chunks of the full database if it's too large
 		chunk_files = split_smi_file(full_database)
@@ -839,8 +843,8 @@ def run_rf_training(ml_directory, data_analysis_directory, train_test_file, rema
 		
 		
 		metrics_df = pd.read_csv(rf_metrics_file, sep=',', header = 0)
-		r2_val = float(metrics_df['R2 val'])
-		r2_train = float(metrics_df['R2 train'])
+		r2_val = float(metrics_df['R2 val'].iloc[0])
+		r2_train = float(metrics_df['R2 train'].iloc[0])
 		
 		merge_results(chunked_preds, rf_pred_output_file)
 		for f in chunk_files: # remove the chunk files once used
@@ -852,7 +856,7 @@ def run_rf_training(ml_directory, data_analysis_directory, train_test_file, rema
 	finally:
 		os.chdir(original_cwd)
 
-def run_ridge_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model):
+def run_ridge_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model, seed):
 	"""Runs the Ridge regression training and prediction process."""
 	ridge_directory = f'{ml_directory}/ridge'
 	original_cwd = os.getcwd()
@@ -869,10 +873,10 @@ def run_ridge_training(ml_directory, data_analysis_directory, train_test_file, r
 
 		# Train the ML algorithm
 		if verbose:
-			subprocess.run(["python", '01_ridge_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model), '--verbose'], check=True)
+			subprocess.run(["python", '01_ridge_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed), '--verbose'], check=True)
 		else:
-			subprocess.run(["python", '01_ridge_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model)], check=True)
-		
+			subprocess.run(["python", '01_ridge_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed)], check=True)
+
 		# Use the algorithm on the whole library
 		chunk_files = split_smi_file(full_database)
 		print('Predicting the scores on the full dataset...')
@@ -888,8 +892,8 @@ def run_ridge_training(ml_directory, data_analysis_directory, train_test_file, r
 		ridge_metrics_file = f'Ridge_metrics_r{r}.csv'
 
 		metrics_df = pd.read_csv(ridge_metrics_file, sep=',', header = 0)
-		r2_val = float(metrics_df['R2 val'])
-		r2_train = float(metrics_df['R2 train'])
+		r2_val = float(metrics_df['R2 val'].iloc[0])
+		r2_train = float(metrics_df['R2 train'].iloc[0])
 
 		merge_results(chunked_preds, ridge_pred_output_file)
 		for f in chunk_files: # remove the chunk files once used
@@ -900,7 +904,7 @@ def run_ridge_training(ml_directory, data_analysis_directory, train_test_file, r
 	finally:
 		os.chdir(original_cwd)
 
-def run_xgb_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model):
+def run_xgb_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model, seed):
 	"""Runs the XGBoost training and prediction process."""
 	xgb_directory = f'{ml_directory}/xgboost'
 	original_cwd = os.getcwd()
@@ -917,9 +921,9 @@ def run_xgb_training(ml_directory, data_analysis_directory, train_test_file, rem
 
 		# Train the ML algorithm
 		if verbose:
-			subprocess.run(["python", '01_xgboost_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model), '--verbose'], check=True)
+			subprocess.run(["python", '01_xgboost_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed), '--verbose'], check=True)
 		else:
-			subprocess.run(["python", '01_xgboost_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model)], check=True)
+			subprocess.run(["python", '01_xgboost_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed)], check=True)
 
 		# Use the algorithm on the whole library
 		chunk_files = split_smi_file(full_database)
@@ -936,8 +940,8 @@ def run_xgb_training(ml_directory, data_analysis_directory, train_test_file, rem
 		xgb_metrics_file = f'XGBoost_metrics_r{r}.csv'
 
 		metrics_df = pd.read_csv(xgb_metrics_file, sep=',', header = 0)
-		r2_val = float(metrics_df['R2 val'])
-		r2_train = float(metrics_df['R2 train'])
+		r2_val = float(metrics_df['R2 val'].iloc[0])
+		r2_train = float(metrics_df['R2 train'].iloc[0])
 
 		merge_results(chunked_preds, xgb_pred_output_file)
 		for f in chunk_files: # remove the chunk files once used
@@ -950,7 +954,7 @@ def run_xgb_training(ml_directory, data_analysis_directory, train_test_file, rem
 		os.chdir(original_cwd)
 
 
-def run_knr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model):
+def run_knr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model, seed):
 	"""Runs the Random Forest training and prediction process."""
 	knr_directory = f'{ml_directory}/KNR'
 	original_cwd = os.getcwd()
@@ -967,9 +971,9 @@ def run_knr_training(ml_directory, data_analysis_directory, train_test_file, rem
 
 		# Train the ML algorithm
 		if verbose:
-			subprocess.run(["python", '01_KNR_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model), '--verbose'], check=True)
+			subprocess.run(["python", '01_KNR_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed), '--verbose'], check=True)
 		else:
-			subprocess.run(["python", '01_KNR_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model)], check=True)
+			subprocess.run(["python", '01_KNR_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed)], check=True)
 
 		# Use the algorithm on the whole library
 
@@ -988,8 +992,8 @@ def run_knr_training(ml_directory, data_analysis_directory, train_test_file, rem
 		knr_metrics_file = f'KNR_metrics_r{r}.csv'
 
 		metrics_df = pd.read_csv(knr_metrics_file, sep=',', header = 0)
-		r2_val = float(metrics_df['R2 val'])
-		r2_train = float(metrics_df['R2 train'])
+		r2_val = float(metrics_df['R2 val'].iloc[0])
+		r2_train = float(metrics_df['R2 train'].iloc[0])
 
 		merge_results(chunked_preds, knr_pred_output_file)
 		for f in chunk_files: # remove the chunk files once used
@@ -1002,7 +1006,7 @@ def run_knr_training(ml_directory, data_analysis_directory, train_test_file, rem
 		os.chdir(original_cwd)
 
 
-def run_svr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model):
+def run_svr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpus_per_model, seed):
 	"""Runs the Random Forest training and prediction process."""
 	svr_directory = f'{ml_directory}/SVR'
 	original_cwd = os.getcwd()
@@ -1019,9 +1023,9 @@ def run_svr_training(ml_directory, data_analysis_directory, train_test_file, rem
 
 		# Train the ML algorithm
 		if verbose:
-			subprocess.run(["python", '01_SVR_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model), '--verbose'], check=True)
+			subprocess.run(["python", '01_SVR_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed), '--verbose'], check=True)
 		else:
-			subprocess.run(["python", '01_SVR_train.py', train_test_file, remaining_mols_file, str(r), '--cpu', str(cpus_per_model)], check=True)
+			subprocess.run(["python", '01_SVR_train.py', train_test_file, str(r), '--cpu', str(cpus_per_model), f'--random_state', str(seed)], check=True)
 
 		# Use the algorithm on the whole library
 
@@ -1040,8 +1044,8 @@ def run_svr_training(ml_directory, data_analysis_directory, train_test_file, rem
 		svr_metrics_file = f'SVR_metrics_r{r}.csv'
 
 		metrics_df = pd.read_csv(svr_metrics_file, sep=',', header = 0)
-		r2_val = float(metrics_df['R2 val'])
-		r2_train = float(metrics_df['R2 train'])
+		r2_val = float(metrics_df['R2 val'].iloc[0])
+		r2_train = float(metrics_df['R2 train'].iloc[0])
 
 		merge_results(chunked_preds, svr_pred_output_file)
 		for f in chunk_files: # remove the chunk files once used
@@ -1240,9 +1244,6 @@ if not isExist:
 	
 
 
-### START!
-
-
 # 01 MOLECULE SELECTION WITH PHYSCHEM PROPRIETIES + DOUBLE BUTINA CLUSTERING
 
 shutil.copy(f'{home_directory}/{full_db}', f'{mol_select_directory}/{full_db}') # move the library to the directory
@@ -1434,7 +1435,7 @@ for i in range(rounds):
 	if 'rf' in tasks_to_run:
 		print('\n======================================== Random Forest =======================================')
 		rf_directory = f'{ml_directory}/RF'
-		rf_pred_output_file, rf_metrics_file, r2_train_rf, r2_val_rf = run_rf_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu)
+		rf_pred_output_file, rf_metrics_file, r2_train_rf, r2_val_rf = run_rf_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu, seed)
 		shutil.move(f'{rf_directory}/{rf_pred_output_file}', f'{data_analysis_directory}/{rf_pred_output_file}') # move the prediction file to the data analysis directory
 		shutil.move(f'{rf_directory}/{rf_metrics_file}', f'{data_analysis_directory}/{rf_metrics_file}') # move the metrics file to the data analysis directory
 		output_files['rf_pred_output_file'] = rf_pred_output_file
@@ -1444,7 +1445,7 @@ for i in range(rounds):
 	if 'ri' in tasks_to_run:
 		print('\n============================================ Ridge ===========================================')
 		ridge_directory = f'{ml_directory}/ridge'
-		ridge_pred_output_file, ridge_metrics_file, r2_train_ridge, r2_val_ridge = run_ridge_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu)
+		ridge_pred_output_file, ridge_metrics_file, r2_train_ridge, r2_val_ridge = run_ridge_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu, seed)
 		shutil.move(f'{ridge_directory}/{ridge_pred_output_file}', f'{data_analysis_directory}/{ridge_pred_output_file}') # move the prediction file to the data analysis directory
 		shutil.move(f'{ridge_directory}/{ridge_metrics_file}', f'{data_analysis_directory}/{ridge_metrics_file}') # move the metrics file to the data analysis directory
 		output_files['ridge_pred_output_file'] = ridge_pred_output_file
@@ -1453,7 +1454,7 @@ for i in range(rounds):
 	if 'xgb' in tasks_to_run:
 		print('\n=========================================== XGBoost ==========================================')
 		xgb_directory = f'{ml_directory}/xgboost'
-		xgb_pred_output_file, xgb_metrics_file, r2_train_xgb, r2_val_xgb = run_xgb_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu)
+		xgb_pred_output_file, xgb_metrics_file, r2_train_xgb, r2_val_xgb = run_xgb_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu, seed)
 		shutil.move(f'{xgb_directory}/{xgb_pred_output_file}', f'{data_analysis_directory}/{xgb_pred_output_file}') # move the prediction file to the data analysis directory
 		shutil.move(f'{xgb_directory}/{xgb_metrics_file}', f'{data_analysis_directory}/{xgb_metrics_file}') # move the metrics file to the data analysis directory
 		output_files['xgb_pred_output_file'] = xgb_pred_output_file
@@ -1462,7 +1463,7 @@ for i in range(rounds):
 	if 'svr' in tasks_to_run:
 		print('\n============================================= SVR ============================================')
 		svr_directory = f'{ml_directory}/SVR'
-		svr_pred_output_file, svr_metrics_file, r2_train_svr, r2_val_svr = run_svr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu)
+		svr_pred_output_file, svr_metrics_file, r2_train_svr, r2_val_svr = run_svr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu, seed)
 		shutil.move(f'{svr_directory}/{svr_pred_output_file}', f'{data_analysis_directory}/{svr_pred_output_file}') # move the prediction file to the data analysis directory
 		shutil.move(f'{svr_directory}/{svr_metrics_file}', f'{data_analysis_directory}/{svr_metrics_file}') # move the metrics file to the data analysis directory
 		output_files['svr_pred_output_file'] = svr_pred_output_file
@@ -1471,7 +1472,7 @@ for i in range(rounds):
 	if 'knr' in tasks_to_run:
 		print('\n============================================= KNR ============================================')
 		knr_directory = f'{ml_directory}/KNR'
-		knr_pred_output_file, knr_metrics_file, r2_train_knr, r2_val_knr = run_knr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu)
+		knr_pred_output_file, knr_metrics_file, r2_train_knr, r2_val_knr = run_knr_training(ml_directory, data_analysis_directory, train_test_file, remaining_mols_file, full_database, r, cpu, seed)
 		shutil.move(f'{knr_directory}/{knr_pred_output_file}', f'{data_analysis_directory}/{knr_pred_output_file}') # move the prediction file to the data analysis directory
 		shutil.move(f'{knr_directory}/{knr_metrics_file}', f'{data_analysis_directory}/{knr_metrics_file}') # move the metrics file to the data analysis directory
 		output_files['knr_pred_output_file'] = knr_pred_output_file
@@ -1752,15 +1753,15 @@ if tasks_to_run == 'auto':
 	clean_directory(xgb_directory, xgboost_data_directory)
 	#clean_directory(svr_directory, svr_data_directory)
 	clean_directory(knr_directory, knr_data_directory)
-elif 'rf' in tasks_to_run:
+if 'rf' in tasks_to_run:
 	clean_directory(rf_directory, rf_data_directory)
-elif 'ri' in tasks_to_run:
+if 'ri' in tasks_to_run:
 	clean_directory(ridge_directory, ridge_data_directory)
-elif 'xgb' in tasks_to_run:
+if 'xgb' in tasks_to_run:
 	clean_directory(xgb_directory, xgboost_data_directory)
-#elif 'svr' in tasks_to_run:
+#if 'svr' in tasks_to_run:
 	#clean_directory(svr_directory, svr_data_directory)
-elif 'knr' in tasks_to_run:
+if 'knr' in tasks_to_run:
 	clean_directory(knr_directory, knr_data_directory)
 
 # Create a single csv file that regroups the metrics of the ML methods in each round	
