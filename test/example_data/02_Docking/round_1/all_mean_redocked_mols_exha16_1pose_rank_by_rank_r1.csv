@@ -1,0 +1,15 @@
+SMILES,ID,minimizedAffinity
+Cc1ccc2nc(CN3CCCc4ccc(C(F)(F)F)cc43)cc(=O)n2c1,Z218115474,-6.43806
+O=C(C[N@H+]1CC[N@H+](Cc2cc(=O)n3ccccc3n2)CC1)Nc1ccc(F)c(F)c1,Z295850258,-6.99845
+Cc1cccc(-c2nnc(C3(c4cccc(Br)c4)CCOCC3)o2)c1,Z1166112993,-6.49581
+Cc1ccc(C(=O)N2CC[NH+](Cc3cc(=O)n4ccccc4n3)CC2)n1C,Z333018054,-6.40696
+COc1ccc(C2(c3nnc(-c4cccc(C)c4)o3)CCOCC2)cc1,Z1166113000,-6.4002
+Fc1ccc(C2(c3nnc(-c4ccc5c(c4)OCCO5)o3)CCOCC2)cc1,Z1166112260,-7.1176
+O=C(c1ccc(Cl)o1)N1CC[NH+](Cc2cc(=O)n3ccccc3n2)CC1,Z333018628,-6.28531
+O=C(c1ccc(Br)cc1F)N1CC[NH+](Cc2cc(=O)n3ccccc3n2)CC1,Z295695190,-6.21471
+Clc1ccccc1C1(c2nnc(-c3ccc4c(c3)OCCO4)o2)CCOCC1,Z1166112250,-6.6479
+Cc1ccc2nc(C[N@@H+]3CCC[N@H+](Cc4ccc(C#N)cc4)CC3)cc(=O)n2c1,Z225047816,-6.55308
+COc1ccc(C2(c3nnc(-c4ccc5c(c4)OCCO5)o3)CCOCC2)cc1,Z1166112258,-6.69906
+O=C(Cc1ccc(Cl)c(Cl)c1)N1CC[NH+](Cc2cc(=O)n3ccccc3n2)CC1,Z333016990,-7.12411
+CCCc1noc([C@@H](C)[N@H+]2CC[N@H+](Cc3cc(=O)n4ccccc4n3)CC2)n1,Z319025908,-6.42605
+Cc1nc2n(c1C)CC[N@@H+](Cc1cc(=O)n3cccc(C)c3n1)C2,Z991019520,-5.86191
