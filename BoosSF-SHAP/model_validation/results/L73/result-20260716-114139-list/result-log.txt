@@ -1,0 +1,1 @@
+* The used model is : {/Users/luigiranieri/Desktop/praetorian/BoostSF-SHAP/model_validation/BoostSF-SHAP_calculations/models/catboost-BV/catBoost-V10_BV.cbm}

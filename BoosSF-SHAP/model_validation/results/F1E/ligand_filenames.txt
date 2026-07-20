@@ -1,0 +1,1 @@
+6gji_prot.pdbqt; F1E.pdbqt; 6gji_ref.pdbqt

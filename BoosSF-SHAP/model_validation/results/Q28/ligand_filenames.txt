@@ -1,0 +1,1 @@
+5fpg_prot.pdbqt; Q28.pdbqt; 5fpg_ref.pdbqt

@@ -1,0 +1,120 @@
+CRYST1   41.990   76.560  148.830  90.00  90.00  90.00 P 21 21 21    1
+HETATM    1  CAA Q28 B2163       0.926  -9.242  -1.763  1.00 37.39           C  
+HETATM    2  CAB Q28 B2163       0.369  -8.164  -1.077  1.00 39.28           C  
+HETATM    3  CAC Q28 B2163      -0.996  -7.920  -1.186  1.00 41.02           C  
+HETATM    4  CAD Q28 B2163      -1.572  -6.849  -0.511  1.00 37.48           C  
+HETATM    5  CAE Q28 B2163      -0.783  -6.019   0.275  1.00 37.45           C  
+HETATM    6  CAF Q28 B2163       0.581  -6.262   0.384  1.00 35.66           C  
+HETATM    7  CAG Q28 B2163       1.159  -7.332  -0.291  1.00 35.23           C  
+HETATM    8  CAI Q28 B2163       3.270  -6.786   0.555  1.00 37.50           C  
+HETATM    9  CAJ Q28 B2163       4.622  -7.088   0.628  1.00 32.50           C  
+HETATM   10  CAK Q28 B2163       5.263  -7.007  -0.761  1.00 39.42           C  
+HETATM   11  CAL Q28 B2163       5.825  -5.606  -1.015  1.00 35.17           C  
+HETATM   12  CAO Q28 B2163       7.765  -4.322  -0.709  1.00 32.95           C  
+HETATM   13  CAP Q28 B2163       7.616  -3.420  -1.761  1.00 39.15           C  
+HETATM   14  CAQ Q28 B2163       8.372  -2.250  -1.791  1.00 37.89           C  
+HETATM   15  CAR Q28 B2163       9.293  -1.974  -0.782  1.00 38.19           C  
+HETATM   16  CAS Q28 B2163       9.443  -2.883   0.259  1.00 41.92           C  
+HETATM   17  CAT Q28 B2163       8.689  -4.047   0.290  1.00 40.68           C  
+HETATM   18  CAU Q28 B2163      10.052  -0.799  -0.825  1.00 38.94           C  
+HETATM   19  CAX Q28 B2163      12.129   0.147  -0.112  1.00 38.19           C  
+HETATM   20  CAY Q28 B2163      13.312  -0.200   0.543  1.00 39.44           C  
+HETATM   21  NAH Q28 B2163       2.473  -7.567  -0.187  1.00 35.80           N  
+HETATM   22  NAN Q28 B2163       7.096  -5.474  -0.597  1.00 32.09           N  
+HETATM   23  NAW Q28 B2163      11.244  -0.866  -0.169  1.00 39.72           N  
+HETATM   24  NAZ Q28 B2163      13.463  -1.441   1.035  1.00 40.65           N  
+HETATM   25  OAM Q28 B2163       5.139  -4.738  -1.552  1.00 42.98           O  
+HETATM   26  OAV Q28 B2163       9.613   0.168  -1.443  1.00 40.52           O  
+HETATM   27  CBA Q28 B2163      14.642  -1.818   1.698  1.00 33.13           C  
+HETATM   28  CBB Q28 B2163      15.669  -0.900   1.849  1.00 31.00           C  
+HETATM   29  CBC Q28 B2163      15.512   0.382   1.340  1.00 33.95           C  
+HETATM   30  CBD Q28 B2163      14.336   0.728   0.688  1.00 38.44           C  
+HETATM   31  CBE Q28 B2163      14.184   2.010   0.182  1.00 39.51           C  
+HETATM   32  CBF Q28 B2163      13.010   2.361  -0.472  1.00 42.13           C  
+HETATM   33  CBG Q28 B2163      11.978   1.438  -0.624  1.00 38.85           C  
+HETATM   34  CBI Q28 B2163       1.370  -5.434   1.169  1.00 36.01           C  
+HETATM   35  NBH Q28 B2163       2.739  -5.700   1.259  1.00 39.16           N  
+HETATM   36  OBJ Q28 B2163       0.882  -4.481   1.776  1.00 31.73           O  
+HETATM   37 HAA1 Q28 B2163       0.898 -10.129  -1.130  1.00 44.87           H  
+HETATM   38 HAA2 Q28 B2163       1.959  -9.013  -2.024  1.00 44.87           H  
+HETATM   39 HAA3 Q28 B2163       0.354  -9.427  -2.673  1.00 44.87           H  
+HETATM   40  HAC Q28 B2163      -1.617  -8.570  -1.802  1.00 49.23           H  
+HETATM   41  HAD Q28 B2163      -2.643  -6.663  -0.598  1.00 44.98           H  
+HETATM   42  HAE Q28 B2163      -1.232  -5.180   0.806  1.00 44.94           H  
+HETATM   43  HAJ Q28 B2163       4.718  -8.109   0.995  1.00 39.00           H  
+HETATM   44  HAK Q28 B2163       5.129  -6.410   1.314  1.00 39.00           H  
+HETATM   45  HAL Q28 B2163       4.529  -7.267  -1.523  1.00 47.30           H  
+HETATM   46  HAM Q28 B2163       6.091  -7.714  -0.803  1.00 47.30           H  
+HETATM   47  HAN Q28 B2163       7.545  -6.253  -0.160  1.00 38.51           H  
+HETATM   48  HAP Q28 B2163       6.898  -3.625  -2.556  1.00 46.97           H  
+HETATM   49  HAQ Q28 B2163       8.246  -1.546  -2.614  1.00 45.46           H  
+HETATM   50  HAS Q28 B2163      10.159  -2.680   1.055  1.00 50.31           H  
+HETATM   51  HAT Q28 B2163       8.817  -4.750   1.113  1.00 48.82           H  
+HETATM   52  HAW Q28 B2163      11.483  -1.725   0.285  1.00 47.66           H  
+HETATM   53  HBA Q28 B2163      14.748  -2.829   2.092  1.00 39.76           H  
+HETATM   54  HBB Q28 B2163      16.589  -1.180   2.362  1.00 37.20           H  
+HETATM   55  HBC Q28 B2163      16.311   1.115   1.451  1.00 40.74           H  
+HETATM   56  HBE Q28 B2163      14.985   2.740   0.295  1.00 47.41           H  
+HETATM   57  HBF Q28 B2163      12.894   3.370  -0.868  1.00 50.55           H  
+HETATM   58  HBG Q28 B2163      11.059   1.722  -1.137  1.00 46.63           H  
+HETATM   59  HBH Q28 B2163       3.332  -5.120   1.817  1.00 46.99           H  
+CONECT    1    2   37   38   39
+CONECT    2    1    3    7
+CONECT    3    2    4   40
+CONECT    4    3    5   41
+CONECT    5    4    6   42
+CONECT    6    5    7   34
+CONECT    7    2    6   21
+CONECT    8    9   21   35
+CONECT    9    8   10   43   44
+CONECT   10    9   11   45   46
+CONECT   11   10   22   25
+CONECT   12   13   17   22
+CONECT   13   12   14   48
+CONECT   14   13   15   49
+CONECT   15   14   16   18
+CONECT   16   15   17   50
+CONECT   17   12   16   51
+CONECT   18   15   23   26
+CONECT   19   20   23   33
+CONECT   20   19   24   30
+CONECT   21    7    8
+CONECT   22   11   12   47
+CONECT   23   18   19   52
+CONECT   24   20   27
+CONECT   25   11
+CONECT   26   18
+CONECT   27   24   28   53
+CONECT   28   27   29   54
+CONECT   29   28   30   55
+CONECT   30   20   29   31
+CONECT   31   30   32   56
+CONECT   32   31   33   57
+CONECT   33   19   32   58
+CONECT   34    6   35   36
+CONECT   35    8   34   59
+CONECT   36   34
+CONECT   37    1
+CONECT   38    1
+CONECT   39    1
+CONECT   40    3
+CONECT   41    4
+CONECT   42    5
+CONECT   43    9
+CONECT   44    9
+CONECT   45   10
+CONECT   46   10
+CONECT   47   22
+CONECT   48   13
+CONECT   49   14
+CONECT   50   16
+CONECT   51   17
+CONECT   52   23
+CONECT   53   27
+CONECT   54   28
+CONECT   55   29
+CONECT   56   31
+CONECT   57   32
+CONECT   58   33
+CONECT   59   35
+END

@@ -1,0 +1,152 @@
+REMARK  Name = 6gji_ref.pdb
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C3_19
+REMARK    2  A    between atoms: N_2  and  C3_20
+REMARK    3  A    between atoms: C_3  and  C1_7
+REMARK    4  A    between atoms: C_4  and  C1_8
+REMARK    5  A    between atoms: O_5  and  C1_7
+REMARK    6  A    between atoms: O_5  and  C2_13
+REMARK    7  A    between atoms: O_6  and  C1_8
+REMARK    8  A    between atoms: O_6  and  C2_14
+REMARK    9  A    between atoms: N1_9  and  C5_27
+REMARK   10  A    between atoms: N1_9  and  C12_43
+REMARK   11  A    between atoms: N1_10  and  C5_28
+REMARK   12  A    between atoms: N1_10  and  C12_44
+REMARK   13  A    between atoms: C2_13  and  C3_19
+REMARK   14  A    between atoms: C2_14  and  C3_20
+REMARK   15  A    between atoms: N2_15  and  C9_37
+REMARK   16  A    between atoms: N2_16  and  C9_38
+REMARK   17  A    between atoms: N3_21  and  C15_49
+REMARK   18  A    between atoms: N3_22  and  C15_50
+REMARK   19  A    between atoms: C5_27  and  C6_31
+REMARK   20  A    between atoms: C5_28  and  C6_32
+REMARK   21  A    between atoms: C12_43  and  C13_45
+REMARK   22  A    between atoms: C12_44  and  C13_46
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   F1E A 201      -1.123  17.721  -4.270  0.00  0.00    -0.176 N 
+ATOM      2  N1  F1E A 201      -1.488  19.370  -5.732  0.00  0.00    -0.253 N 
+ATOM      3  O2  F1E A 201      -0.292  17.577  -6.291  0.00  0.00    -0.251 OA
+ATOM      4  C4  F1E A 201      -0.932  18.187  -5.480  0.00  0.00    +0.324 C 
+ATOM      5  H   F1E A 201      -1.661  18.243  -3.632  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   1   6
+ATOM      6  C3  F1E A 201      -0.564  16.464  -3.853  0.00  0.00    +0.226 C 
+BRANCH   6   8
+ATOM      7  O1  F1E A 201      -2.313  15.292  -5.009  0.00  0.00    -0.248 OA
+ATOM      8  C2  F1E A 201      -1.253  15.284  -4.475  0.00  0.00    +0.339 C 
+BRANCH   8   9
+ATOM      9  O   F1E A 201      -0.520  14.189  -4.340  0.00  0.00    -0.447 OA
+BRANCH   9  11
+ATOM     10  C   F1E A 201       0.094  11.941  -4.529  0.00  0.00    +0.051 C 
+ATOM     11  C1  F1E A 201      -0.986  12.946  -4.803  0.00  0.00    +0.209 C 
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+ENDBRANCH   1   6
+BRANCH   2  12
+ATOM     12  C5  F1E A 201      -1.612  19.942  -7.015  0.00  0.00    +0.122 C 
+BRANCH  12  13
+ATOM     13  C6  F1E A 201      -3.019  19.986  -7.491  0.00  0.00    -0.002 A 
+ATOM     14  C7  F1E A 201      -3.590  21.180  -7.869  0.00  0.00    -0.001 A 
+ATOM     15  C8  F1E A 201      -4.885  21.207  -8.328  0.00  0.00    +0.018 A 
+ATOM     16  C9  F1E A 201      -5.600  20.027  -8.406  0.00  0.00    +0.089 A 
+ATOM     17  C10 F1E A 201      -5.021  18.846  -8.029  0.00  0.00    +0.018 A 
+ATOM     18  C11 F1E A 201      -3.726  18.807  -7.567  0.00  0.00    -0.001 A 
+BRANCH  16  19
+ATOM     19  N2  F1E A 201      -6.860  20.047  -8.860  0.00  0.00    -0.128 N 
+ATOM     20  H   F1E A 201      -7.272  20.899  -9.130  0.00  0.00    +0.000 HD
+ATOM     21  H   F1E A 201      -7.374  19.210  -8.924  0.00  0.00    +0.000 HD
+ENDBRANCH  16  19
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+BRANCH   2  22
+ATOM     22  C12 F1E A 201      -2.054  20.214  -4.698  0.00  0.00    +0.145 C 
+BRANCH  22  26
+ATOM     23  N3  F1E A 201       0.929  22.172  -3.941  0.00  0.00    -0.228 N 
+ATOM     24  N4  F1E A 201      -0.010  22.989  -3.357  0.00  0.00    -0.064 NA
+ATOM     25  N5  F1E A 201      -1.191  22.298  -3.600  0.00  0.00    -0.131 NA
+ATOM     26  C13 F1E A 201      -0.960  21.146  -4.280  0.00  0.00    +0.121 A 
+ATOM     27  C14 F1E A 201       0.424  21.090  -4.490  0.00  0.00    +0.115 A 
+ATOM     28  C15 F1E A 201       2.319  22.577  -3.876  0.00  0.00    +0.156 C 
+ENDBRANCH  22  26
+ENDBRANCH   2  22
+TORSDOF 9
+REMARK  Name = 6gji_ref.pdb
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C3_19
+REMARK    2  A    between atoms: N_2  and  C3_20
+REMARK    3  A    between atoms: C_3  and  C1_7
+REMARK    4  A    between atoms: C_4  and  C1_8
+REMARK    5  A    between atoms: O_5  and  C1_7
+REMARK    6  A    between atoms: O_5  and  C2_13
+REMARK    7  A    between atoms: O_6  and  C1_8
+REMARK    8  A    between atoms: O_6  and  C2_14
+REMARK    9  A    between atoms: N1_9  and  C5_27
+REMARK   10  A    between atoms: N1_9  and  C12_43
+REMARK   11  A    between atoms: N1_10  and  C5_28
+REMARK   12  A    between atoms: N1_10  and  C12_44
+REMARK   13  A    between atoms: C2_13  and  C3_19
+REMARK   14  A    between atoms: C2_14  and  C3_20
+REMARK   15  A    between atoms: N2_15  and  C9_37
+REMARK   16  A    between atoms: N2_16  and  C9_38
+REMARK   17  A    between atoms: N3_21  and  C15_49
+REMARK   18  A    between atoms: N3_22  and  C15_50
+REMARK   19  A    between atoms: C5_27  and  C6_31
+REMARK   20  A    between atoms: C5_28  and  C6_32
+REMARK   21  A    between atoms: C12_43  and  C13_45
+REMARK   22  A    between atoms: C12_44  and  C13_46
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   F1E A 201      -1.100  17.706  -4.643  0.00  0.00    -0.176 N 
+ATOM      2  N1  F1E A 201      -0.772  18.729  -6.703  0.00  0.00    -0.253 N 
+ATOM      3  O2  F1E A 201       0.193  16.843  -6.186  0.00  0.00    -0.251 OA
+ATOM      4  C4  F1E A 201      -0.551  17.735  -5.856  0.00  0.00    +0.324 C 
+ATOM      5  H   F1E A 201      -1.677  18.449  -4.352  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   1   6
+ATOM      6  C3  F1E A 201      -0.857  16.587  -3.740  0.00  0.00    +0.226 C 
+BRANCH   6   8
+ATOM      7  O1  F1E A 201      -2.381  15.292  -5.066  0.00  0.00    -0.248 OA
+ATOM      8  C2  F1E A 201      -1.366  15.349  -4.458  0.00  0.00    +0.339 C 
+BRANCH   8   9
+ATOM      9  O   F1E A 201      -0.539  14.319  -4.313  0.00  0.00    -0.447 OA
+BRANCH   9  11
+ATOM     10  C   F1E A 201       0.117  12.011  -4.486  0.00  0.00    +0.051 C 
+ATOM     11  C1  F1E A 201      -0.945  13.035  -4.762  0.00  0.00    +0.209 C 
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+ENDBRANCH   1   6
+BRANCH   2  12
+ATOM     12  C5  F1E A 201      -1.585  19.900  -6.443  0.00  0.00    +0.122 C 
+BRANCH  12  13
+ATOM     13  C6  F1E A 201      -2.917  19.905  -7.168  0.00  0.00    -0.002 A 
+ATOM     14  C7  F1E A 201      -3.475  21.092  -7.627  0.00  0.00    -0.001 A 
+ATOM     15  C8  F1E A 201      -4.712  21.130  -8.240  0.00  0.00    +0.018 A 
+ATOM     16  C9  F1E A 201      -5.416  19.948  -8.388  0.00  0.00    +0.089 A 
+ATOM     17  C10 F1E A 201      -4.871  18.776  -7.932  0.00  0.00    +0.018 A 
+ATOM     18  C11 F1E A 201      -3.636  18.742  -7.315  0.00  0.00    -0.001 A 
+BRANCH  16  19
+ATOM     19  N2  F1E A 201      -6.617  19.947  -8.988  0.00  0.00    -0.128 N 
+ATOM     20  H   F1E A 201      -7.005  20.791  -9.314  0.00  0.00    +0.000 HD
+ATOM     21  H   F1E A 201      -7.110  19.102  -9.102  0.00  0.00    +0.000 HD
+ENDBRANCH  16  19
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+BRANCH   2  22
+ATOM     22  C12 F1E A 201      -0.144  18.772  -8.017  0.00  0.00    +0.145 C 
+BRANCH  22  26
+ATOM     23  N3  F1E A 201       3.370  19.585  -7.323  0.00  0.00    -0.228 N 
+ATOM     24  N4  F1E A 201       3.535  18.871  -8.468  0.00  0.00    -0.064 NA
+ATOM     25  N5  F1E A 201       2.231  18.519  -8.785  0.00  0.00    -0.131 NA
+ATOM     26  C13 F1E A 201       1.345  19.003  -7.891  0.00  0.00    +0.121 A 
+ATOM     27  C14 F1E A 201       2.100  19.702  -6.944  0.00  0.00    +0.115 A 
+ATOM     28  C15 F1E A 201       4.554  20.124  -6.687  0.00  0.00    +0.156 C 
+ENDBRANCH  22  26
+ENDBRANCH   2  22
+TORSDOF 9

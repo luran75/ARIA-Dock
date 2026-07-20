@@ -1,0 +1,66 @@
+REMARK  Name = 5fpg_ref.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAB_2
+REMARK    2  A    between atoms: CAI_8  and  CAJ_9
+REMARK    3  A    between atoms: CAJ_9  and  CAK_10
+REMARK    4  A    between atoms: CAK_10  and  CAL_11
+REMARK    5  A    between atoms: CAO_12  and  NAN_22
+REMARK    6  A    between atoms: CAR_15  and  CAU_18
+REMARK    7  A    between atoms: CAX_19  and  NAW_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAO Q28 B2163       7.765  -4.322  -0.709  0.00  0.00    +0.033 A 
+ATOM      2  CAP Q28 B2163       7.616  -3.420  -1.761  0.00  0.00    +0.024 A 
+ATOM      3  CAQ Q28 B2163       8.372  -2.250  -1.791  0.00  0.00    +0.015 A 
+ATOM      4  CAR Q28 B2163       9.293  -1.974  -0.782  0.00  0.00    +0.037 A 
+ATOM      5  CAS Q28 B2163       9.443  -2.883   0.259  0.00  0.00    +0.015 A 
+ATOM      6  CAT Q28 B2163       8.689  -4.047   0.290  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  CAU Q28 B2163      10.052  -0.799  -0.825  0.00  0.00    +0.248 C 
+ATOM      8  NAW Q28 B2163      11.244  -0.866  -0.169  0.00  0.00    -0.280 N 
+ATOM      9  OAV Q28 B2163       9.613   0.168  -1.443  0.00  0.00    -0.270 OA
+ATOM     10  HAW Q28 B2163      11.483  -1.725   0.285  0.00  0.00    +0.155 HD
+BRANCH   8  11
+ATOM     11  CAX Q28 B2163      12.129   0.147  -0.112  0.00  0.00    +0.060 A 
+ATOM     12  CAY Q28 B2163      13.312  -0.200   0.543  0.00  0.00    +0.092 A 
+ATOM     13  NAZ Q28 B2163      13.463  -1.441   1.035  0.00  0.00    -0.253 NA
+ATOM     14  CBA Q28 B2163      14.642  -1.818   1.698  0.00  0.00    +0.111 A 
+ATOM     15  CBB Q28 B2163      15.669  -0.900   1.849  0.00  0.00    +0.020 A 
+ATOM     16  CBC Q28 B2163      15.512   0.382   1.340  0.00  0.00    +0.011 A 
+ATOM     17  CBD Q28 B2163      14.336   0.728   0.688  0.00  0.00    +0.002 A 
+ATOM     18  CBE Q28 B2163      14.184   2.010   0.182  0.00  0.00    +0.010 A 
+ATOM     19  CBF Q28 B2163      13.010   2.361  -0.472  0.00  0.00    +0.003 A 
+ATOM     20  CBG Q28 B2163      11.978   1.438  -0.624  0.00  0.00    +0.025 A 
+ENDBRANCH   8  11
+ENDBRANCH   4   7
+BRANCH   1  22
+ATOM     21  CAL Q28 B2163       5.825  -5.606  -1.015  0.00  0.00    +0.218 C 
+ATOM     22  NAN Q28 B2163       7.096  -5.474  -0.597  0.00  0.00    -0.285 N 
+ATOM     23  OAM Q28 B2163       5.139  -4.738  -1.552  0.00  0.00    -0.275 OA
+ATOM     24  HAN Q28 B2163       7.545  -6.253  -0.160  0.00  0.00    +0.155 HD
+BRANCH  21  25
+ATOM     25  CAK Q28 B2163       5.263  -7.007  -0.761  0.00  0.00    +0.104 C 
+BRANCH  25  26
+ATOM     26  CAJ Q28 B2163       4.622  -7.088   0.628  0.00  0.00    +0.083 C 
+BRANCH  26  34
+ATOM     27  CAA Q28 B2163       0.926  -9.242  -1.763  0.00  0.00    +0.046 C 
+ATOM     28  CAB Q28 B2163       0.369  -8.164  -1.077  0.00  0.00    -0.024 A 
+ATOM     29  CAC Q28 B2163      -0.996  -7.920  -1.186  0.00  0.00    +0.005 A 
+ATOM     30  CAD Q28 B2163      -1.572  -6.849  -0.511  0.00  0.00    +0.001 A 
+ATOM     31  CAE Q28 B2163      -0.783  -6.019   0.275  0.00  0.00    +0.015 A 
+ATOM     32  CAF Q28 B2163       0.581  -6.262   0.384  0.00  0.00    +0.065 A 
+ATOM     33  CAG Q28 B2163       1.159  -7.332  -0.291  0.00  0.00    +0.081 A 
+ATOM     34  CAI Q28 B2163       3.270  -6.786   0.555  0.00  0.00    +0.111 A 
+ATOM     35  NAH Q28 B2163       2.473  -7.567  -0.187  0.00  0.00    -0.233 NA
+ATOM     36  CBI Q28 B2163       1.370  -5.434   1.169  0.00  0.00    +0.259 A 
+ATOM     37  NBH Q28 B2163       2.739  -5.700   1.259  0.00  0.00    -0.310 N 
+ATOM     38  OBJ Q28 B2163       0.882  -4.481   1.776  0.00  0.00    -0.267 OA
+ATOM     39  HBH Q28 B2163       3.332  -5.120   1.817  0.00  0.00    +0.170 HD
+ENDBRANCH  26  34
+ENDBRANCH  25  26
+ENDBRANCH  21  25
+ENDBRANCH   1  22
+TORSDOF 6

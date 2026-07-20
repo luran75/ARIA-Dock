@@ -1,0 +1,1 @@
+7u3k_prot.pdbqt; L73.pdbqt; 7u3k_ref.pdbqt

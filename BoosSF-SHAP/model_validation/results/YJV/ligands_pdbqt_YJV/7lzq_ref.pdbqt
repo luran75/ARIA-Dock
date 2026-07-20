@@ -1,0 +1,41 @@
+REMARK  Name = 7lzq_ref.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  C_16
+REMARK    3  A    between atoms: CAA_3  and  NAV_20
+REMARK    4  A    between atoms: CAR_13  and  NAN_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  YJV A 201     -12.050  -1.712 -14.980  0.00  0.00    +0.194 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   YJV A 201     -11.644  -2.745 -14.136  0.00  0.00    -0.318 N 
+ATOM      3  CAA YJV A 201     -12.467  -4.197  -8.732  0.00  0.00    +0.134 C 
+ATOM      4  CAE YJV A 201     -12.830  -2.180 -11.933  0.00  0.00    +0.036 A 
+ATOM      5  CAF YJV A 201     -12.956  -2.620 -10.643  0.00  0.00    +0.080 A 
+ATOM      6  CAI YJV A 201     -10.579  -4.605 -13.375  0.00  0.00    +0.025 A 
+ATOM      7  CAJ YJV A 201     -10.771  -3.799 -14.469  0.00  0.00    +0.076 A 
+ATOM      8  CAP YJV A 201     -11.431  -4.508 -10.996  0.00  0.00    +0.262 A 
+ATOM      9  CAS YJV A 201     -11.999  -2.906 -12.814  0.00  0.00    +0.066 A 
+ATOM     10  CAT YJV A 201     -11.336  -4.036 -12.340  0.00  0.00    +0.073 A 
+ATOM     11  NAV YJV A 201     -12.310  -3.747 -10.163  0.00  0.00    -0.292 N 
+ATOM     12  OAC YJV A 201     -10.879  -5.525 -10.579  0.00  0.00    -0.267 OA
+ENDBRANCH   1   2
+BRANCH   1  13
+ATOM     13  C   YJV A 201     -13.471  -1.718 -15.440  0.00  0.00    +0.269 C 
+ATOM     14  O   YJV A 201     -14.233  -2.540 -15.017  0.00  0.00    -0.271 OA
+ATOM     15  NAN YJV A 201     -13.848  -0.767 -16.369  0.00  0.00    -0.177 N 
+ATOM     16  H   YJV A 201     -13.139  -0.157 -16.676  0.00  0.00    +0.000 HD
+BRANCH  15  21
+ATOM     17  CAG YJV A 201     -17.532  -0.783 -16.987  0.00  0.00    +0.100 A 
+ATOM     18  CAH YJV A 201     -16.328  -1.077 -16.358  0.00  0.00    +0.038 A 
+ATOM     19  CAK YJV A 201     -16.414   0.470 -18.650  0.00  0.00    +0.112 A 
+ATOM     20  CAQ YJV A 201     -15.184   0.201 -18.060  0.00  0.00    +0.092 A 
+ATOM     21  CAR YJV A 201     -15.092  -0.570 -16.915  0.00  0.00    +0.087 A 
+ATOM     22  NAM YJV A 201     -17.589  -0.001 -18.151  0.00  0.00    -0.241 NA
+ATOM     23 CLAD YJV A 201     -13.835   0.930 -18.829  0.00  0.00    -0.079 Cl
+ENDBRANCH  15  21
+ENDBRANCH   1  13
+TORSDOF 3
