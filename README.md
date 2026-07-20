@@ -123,7 +123,7 @@ The results are saved in the `06_data` folder:
 
 ### No available ligand?
 
-ARIA-Dock requires a reference ligand on the surface of the protein in order to perform the docking step required for the workflow, but not all pdb structures include a cocrystallized ligand. In order to find potential binding pockets from the urser's protein pdb file, the user can use the script provided in the `pocket_finder` directory, which leverages the pyKVFinder package. After activating the environment as explained above, the user must run the following commands:
+ARIA-Dock requires a reference ligand on the surface of the protein in order to perform the docking step required for the workflow, but not all pdb structures include a cocrystallized ligand. In order to find potential binding pockets from the urser's protein pdb file, the user can use the script provided in the `pocket_finder` directory, which leverages the fpocket package. After activating the environment as explained above, the user must run the following commands:
 
 ```
 cd pocket_finder 
@@ -138,3 +138,15 @@ python pocket_finder.py -p 2J9J.pdb
 ```
 
 The script outputs three possible binding pockets (KAA, KAB, KAC) and their relative pdb files that can be used as input for ARIA-Dock. The binding pockets can be visualised in an interactive dashboard that is meant to facilitate the user in choosing the ideal predicted binding pocket.
+
+
+### BoostSF-SHAP
+ARIA-Dock automatically runs BoostSF-SHAP as developed by Chen et al. and implemented by our team, on the two best ranked compounds. However, if the user wishes so, the script can be run on a custom list of molecules, for example the entirety of the ecollection retrieved by ARIA-Dock. Here is an example that can be run with the data in the `example` folder.
+
+```
+cd BoosSF-SHAP/run_list_of_molecules/example
+
+python run_list.py --receptor 2yrq.pdb --reference 2yrq_pocket.pdb --list all_docked_molecules_2_rounds.sdf
+```
+
+For custom data, the user can run the command `python run_list -h` to see all the required data.
