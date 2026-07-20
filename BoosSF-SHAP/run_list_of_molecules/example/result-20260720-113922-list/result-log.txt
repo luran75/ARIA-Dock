@@ -1,0 +1,1 @@
+* The used model is : {/Users/luigiranieri/Desktop/praetorian/BoostSF-SHAP/personal_molecule_list/plug-ins/BoostSF-SHAP_independent_collection/example/models/catboost-BV/catBoost-V10_BV.cbm}
