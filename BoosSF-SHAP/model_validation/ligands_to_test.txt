@@ -1,0 +1,98 @@
+Affinity from BindingDB
+Ligands not present in the training-test
+Ligand in CanSmiles from the PDB
+
+================== High affinity ===========================================================================
+
+==================
+5ZBQ
+Ligand 9AO
+Ki: min: 0.08, max: 0.31 (nM) from 4 assay(s)
+IC50: min: 0.1, max: 7.6 (nM) from 8 assay(s)
+
+CCC(=O)NCCNC(=O)N=C(N)NCCC[C@@H](NC(=O)C(c1ccccc1)c2ccccc2)C(=O)NCc3ccc(O)cc3
+
+===================
+4W2R
+Ligand CJD
+Ki: min: 0.1, max: 0.2 (nM) from 2 assay(s)
+IC50: min: 3, max: 4 (nM) from 2 assay(s)
+
+CO[C@H](C1COC1)c2cc(Cl)c3CCN(CC4=C(OC)C=C(C)NC4=O)C(=O)c3c2Cl
+
+=====================
+5FPG
+
+Ligand Q28
+IC50: min: 0.1, max: 5.1 (nM) from 2 assay(s)
+
+Cc1cccc2C(=O)NC(=Nc12)CCC(=O)Nc3ccc(cc3)C(=O)Nc4cccc5cccnc45
+
+
+=====================
+
+4TVJ
+
+Ligand 09L (OLAPARIB)
+
+Fc1ccc(CC2=NNC(=O)c3ccccc23)cc1C(=O)N4CCN(CC4)C(=O)C5CC5
+
+Kd: min: 0.27, max: 0.5 (nM) from 3 assay(s)
+IC50: min: 0.1, max: 251 (nM) from 23 assay(s)
+
+
+=======MEDIUM AFFINITY==================================================================
+7U3K
+
+Ligand L73
+CCCCNCC(=O)N[C@H](Cc1ccc(cc1)C(C)(C)C)C(=O)N[C@@H](Cc2cccc(OC)c2)C(=O)NC
+
+IC50: 4700 (nM) from 1 assay(s)
+
+
+===============================
+7PWK
+IC50: min: 4786, max: 4800 (nM) from 2 assay(s)
+
+Ligand 89Q
+NC(=O)c1ccc(OCC2CC2)cc1
+
+===============================
+
+=======WEAK AFFINITY==========================================================================
+
+7LZQ
+Ligand: YJV
+Kd: min: 9.70e+4, max: 1.19e+5 (nM) from 2 assay(s)
+IC50: 1.32e+5 (nM) from 1 assay(s)
+CN1C=Cc2n(CC(=O)Nc3ccncc3Cl)ccc2C1=O
+
+====
+
+6GJI
+Ligand F1E
+Kd: 1.35e+5 (nM) from 1 assay(s)
+
+CCOC(=O)CNC(=O)N(Cc1ccc(cc1)N)Cc2cn(nn2)C
+
+==========
+
+3AI8
+
+Ligand HNQ
+Ki: min: 3.95e+4, max: 2.72e+5 (nM) from 3 assay(s)
+Oc1ccc(c2cccnc12)[N+]([O-])=O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
