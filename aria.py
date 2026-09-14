@@ -72,7 +72,7 @@ parser.add_argument('-l', '--ligand', type=str ,action='store', required=True, h
 parser.add_argument('-d', '--database', type=str, action='store', required=True, help='Input database in .smi format')
 parser.add_argument('-r', '--rounds', type=int, action='store', default=5, help='Number of rounds to perform')
 parser.add_argument('-m', '--model', action='extend', nargs='*', type=str, choices=['auto', 'rf', 'ri', 'xgb', 'knr'], default=None, help='Type of ML models to run. rf: RandomForest, ri: Ridge, xgb: XGBoost, knr: K-Nearest Regressor, auto: automatic selection based on metrics. Combination of multiple models is allowed: -e.g., -m rf ri xb')
-parser.add_argument('-n', '--number', type=int, action='store', default=0, help='If auto is selected, then specify the number of models to use (from 1 to 5).')
+parser.add_argument('-n', '--number', type=int, action='store', default=0, help='If auto is selected, then specify the number of models to use (from 1 to 4).')
 parser.add_argument('--version', action='version', version='%(prog)s 1.2')
 parser.add_argument('--log', action='store_true', default=False, help='Enables logging of the workflow progress and results')
 parser.add_argument('--cpu', type=int, action='store', default=8, help='Number CPUs to expoit dursing the molecular docking step. Default: 8')
