@@ -54,7 +54,7 @@ options:
                         Type of ML models to run. rf: RandomForest, ri: Ridge, xgb: XGBoost, knr: K-Nearest Regressor, auto: automatic selection
                         based on metrics. Combination of multiple models is allowed: -e.g., -m rf ri xb
   -n NUMBER, --number NUMBER
-                        If auto is selected, then specify the number of models to use (from 1 to 5).
+                        If auto is selected, then specify the number of models to use (from 1 to 4).
   --version             show program's version number and exit
   --log                 Enables logging of the workflow progress and results
   --cpu CPU             Number CPUs to expoit dursing the molecular docking step. Default: 8
