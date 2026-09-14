@@ -88,7 +88,7 @@ Villoutreix group
 9. `--docking_chunks`
     Number of chunks to divide the `database` for molecular docking. The screening of the chunks will be performed in parallel to increase efficiency.
 10. `--percentage`
-    Percentage of the `database` to select for the initial molecular docking. N.B. If the number of molecules in the `database` is lower than 10000, the percentage is automatically set ot 1%
+    Percentage of the `database` to select for the initial molecular docking. N.B. If the number of molecules in the `database` is lower than 10000, the percentage is automatically set ot 10%
 11. `--plug-in`
     Select a post-processing ML-rescoring model that will run at the end of the workflow. The top two best docked candidates are investigated with the ML affinity prediction model.
     SHAP (SHapley Additive exPlanations) is used to interpret the ML model’s binding-affinity predictions by quantifying how each feature contributes to the predicted affinity for each compound.
