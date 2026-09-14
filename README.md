@@ -76,7 +76,7 @@ Villoutreix group
 3. `-d --database`
     The database containing the molecules to screen on the protein target. For the structure of the file check the information above.
 4. `-m --model`
-    The machine learning models to use and combine to predict the binding affinity. rf: RandomForest, ri: Ridge, xb: XGBoost, knr: K-Nearest Regressor. Use the provided sequences of letters to combine the different models (consensus scoring). Select 'auto' to let the workflow decide which methods to use based on their performance on the provided data. WARNING: if you use 'auto' you need to specify how many methods you want to combine with the flag '--number'
+    The machine learning models to use and combine to predict the binding affinity. rf: RandomForest, ri: Ridge, xgb: XGBoost, knr: K-Nearest Regressor. Use the provided sequences of letters to combine the different models (consensus scoring). Select 'auto' to let the workflow decide which methods to use based on their performance on the provided data. WARNING: if you use 'auto' you need to specify how many methods you want to combine with the flag '--number'
 5. `-n --number`
     If you use '-m auto' select the number of methods that the workflow should combine.
 6. `--version`
