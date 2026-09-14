@@ -5,8 +5,7 @@ This script prepares a protein structure from a PDB file for molecular docking b
 1. Cleaning the structure (removing water, ligands, etc.)
 2. Adding missing residues/atoms
 3. Adding hydrogens
-4. Optimizing side chain conformations
-5. Saving the prepared structure
+4. Saving the prepared structure
 
 Requirements:
 - biopython
